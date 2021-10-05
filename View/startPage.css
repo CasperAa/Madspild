@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#menu{
+    /*Her odnes den box som omgiver knapperne og samtidig placering af knapperne*/
+    background: limegreen;
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+}
+#menu button{
+    /*Her ordnes selve knapperne*/
+
+    font-size: 20px;
+    background:white;
+    color: black;
+    font: normal 14px Baskerville;
+}
+#header{
+    /*postioning the text in the center of the picture*/
+    position: absolute;
+    text-align:center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font: normal 100px Baskerville;
+}
+#grøntsager{
+    /*Når man skal bruge billede, skal den ligge i directory som der hvor HTML/CSS ligger,
+  ellers kan den ikke tilgåes*/
+    background-image: url("Grøntsager.png");
+    opacity: 20%;
+}
