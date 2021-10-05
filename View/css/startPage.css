@@ -29,6 +29,6 @@
 #grøntsager{
     /*Når man skal bruge billede, skal den ligge i directory som der hvor HTML/CSS ligger,
   ellers kan den ikke tilgåes*/
-    background-image: url("Grøntsager.png");
+    background-image: url("/Ressourcer/Grøntsager.png");
     opacity: 20%;
 }
