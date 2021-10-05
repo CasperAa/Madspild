@@ -8,4 +8,7 @@ public class PageController {
     @GetMapping("/")
     public String index(){return "StartPage";}
 
+    @GetMapping("/Recipe")
+    public String recipe(){return "Recipe";}
+
 }
