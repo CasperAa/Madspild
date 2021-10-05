@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bestilling</title>
+    <link rel="stylesheet" href="css/Order.css">
 </head>
 <body>
+<nav id="menu">
+    <button style="margin: 20px" id="Opskrifter">Opskrifter</button>
+    <button style="margin: 20px" id="Bestilling">Bestilling</button>
+    <button style="margin: 20px" id="Vision">Vores vision</button>
+</nav>
+
+<!-- Vælg din lokation: tekstfelt-->
+
+<!-- Postnummer: tekstfelt-->
+
+<!-- (Kort med butikslogoer) -->
+<div class="bg-img">
+    <form action="/action_page.php" class="container">
+        <h1>Find butik</h1>
+
+        <label><b>Postnummer</b></label>
+        <input type="text" placeholder="Postnummer" name="postnummer" required>
+        <label><b>Gade</b></label>
+        <input type="text" placeholder="Gadenavn" name="gade" required>
+
+        <button type="submit" class="btn">Søg</button>
+    </form>
+</div>
+
+<!-- Listevisning med butiksikoner -->
 
 </body>
 </html>
