@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#menu{
+    /*Her ordnes den box, der omgiver knapperne samt placeringen af knapperne*/
+    background: limegreen;
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+}
+#menu button{
+    /*Her ordnes selve knapperne*/
+
+    font-size: 20px;
+    background:white;
+    color: black;
+    font: normal 14px Baskerville;
+}
+#header{
+    /*How the headline is gonna look*/
+    position: absolute;
+    text-align:center;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font: normal 100px "Trebuchet MS";
+    color: #039ee6ff; /*Eller 190a00ff*/
+}
+
+.headlinetextdef
+{
+    font: normal 30px "Trebuchet MS";
+    font-weight: bold;
+    color: #190a00ff;
+}
+
+.bodytextdef
+{
+    font: normal 17px "Trebuchet MS";
+    color: #190a00ff;
+    padding: 10px;
+}
+
+.positiontextandpicture
+{
+    position: relative;
+    top: 170px;
+    left: 50px;
+}
+
+.positiontextandpicture2
+{
+    position: relative;
+    top: 280px;
+    left: 50px;
+    inline-size: 900px;
+    overflow-wrap: break-word;
+}
+
+#textbox1
+{
+
+}
+
+#textbox2
+{
+clear:both;
+}
+
+#image2
+{
+    float:right;
+}
