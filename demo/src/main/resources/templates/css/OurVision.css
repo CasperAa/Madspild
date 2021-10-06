@@ -48,6 +48,11 @@
     top: 170px;
     left: 50px;
 }
+.positiontext1
+{
+    inline-size: 1360px;
+    overflow-wrap: break-word;
+}
 
 .positiontextandpicture2
 {
