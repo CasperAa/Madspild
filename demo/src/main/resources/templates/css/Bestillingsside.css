@@ -28,8 +28,14 @@
 
 #placer_like{
     position: relative;
-    left: 500px;
+    left: 400px;
     top: -250px;
+}
+
+#placer_box{
+    position: relative;
+    left: 80px;
+    top: -500px;
 }
 
 /*Lånt kode fra https://codepen.io/jcoulterdesign/pen/azQMqG/ */
