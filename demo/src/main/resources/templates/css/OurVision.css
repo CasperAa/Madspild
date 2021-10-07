@@ -4,7 +4,7 @@
 }
 #menu{
     /*Her ordnes den box, der omgiver knapperne samt placeringen af knapperne*/
-    background: limegreen;
+    background: #5aa300ff;
     border: solid black;
     padding: 20px;
     text-align: center;
@@ -17,6 +17,7 @@
     color: black;
     font: normal 14px Baskerville;
 }
+
 #header{
     /*How the headline is gonna look*/
     position: absolute;
@@ -70,10 +71,11 @@
 
 #textbox2
 {
-clear:both;
+    clear:both;
 }
 
 #image2
 {
     float:right;
 }
+
