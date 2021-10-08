@@ -57,7 +57,7 @@ body{
     z-index: 5;
 }
 #grøntsager{
-    background-image: url("demo/src/main/resources/templates/Grøntsager.jpg");
+    /*background-image: url("demo/src/main/resources/templates/Grøntsager.jpg");*/
     opacity: 40%;
     width:100%;
     height:600px;
