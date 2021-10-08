@@ -5,7 +5,8 @@
     <title>Bekræft bestilling</title>
     <link rel="stylesheet" href="static/css/global-styles/footer.css"/>
     <link rel="stylesheet" href="static/css/global-styles/fonts.css"/>
-    <link rel="stylesheet" href="static/css/Order.css">
+    <link rel="stylesheet" href="static/css/order-pages/Order.css">
+    <link rel="stylesheet" href="static/css/order-pages/confirm-order.css">
 </head>
 <nav id="menu">
     <button style="margin: 20px" id="Opskrifter">Opskrifter</button>
@@ -14,38 +15,60 @@
 </nav>
 <body>
 
-<!-- butiksoversigt -->
+<!-- yderste div-->
+<div id="container">
 
-<!-- bestillingsoversigt -->
-<section>
-    <div>
-        <!-- ordre: afhentning, levering-->
-    </div>
-
-    <div>
-        <!-- tabel m. ordreinfo-->
-        <table class="fixed-table">
-            <tr>Varer</tr>
-            <tr>Antal</tr>
-            <tr>Pris</tr>
-        </table>
+    <!-- butiksoversigt -->
+    <div id="header">
 
     </div>
-        <!-- billede-->
-    <div>
+
+    <!-- indhold -->
+    <div id="content">
+
+        <div id="Ordre">
+            <h1>Bekræft ordre</h1>
+            <label>Vegetarisk
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label>Vegansk
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div id="tabel antal/pris/varer"></div>
+            <table class="center">
+                <tr>Varer</tr>
+                <tr>Antal</tr>
+                <tr>Pris</tr>
+            </table>
+        </div>
+
+        <div id="billede"></div>
 
     </div>
-</section>
+    <!-- bestillingsoversigt -->
 
-<!-- adresse og levering -->
-<section>
+    <!-- ordre: afhentning, levering-->
 
-</section>
+    <!-- tabel m. ordreinfo-->
 
-<!-- bekræft -->
-<section>
-    <button>Bekræft bestilling</button>
-</section>
+    <!-- billede-->
+
+
+
+    <!-- adresse og levering -->
+
+
+    <!-- bekræft -->
+
+
+
+</div>
+
 </body>
 
 <footer class="blue-background">
