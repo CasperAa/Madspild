@@ -4,12 +4,15 @@
 }
 
 body{
-    background: bisque;
+    background:#5aa300ff;
+
 }
+
+
 #menu{
     /*Her ordnes den box som omgiver knapperne og samtidig placering af knapperne*/
 
-    background: #5aa300ff;
+    background: #039ee6ff;
     border-radius: 30px;
     padding: 5px;
 
@@ -90,3 +93,4 @@ body{
     padding: 20px;
     border-top: 2px solid black;
 }
+
