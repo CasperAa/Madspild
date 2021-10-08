@@ -1,0 +1,27 @@
+#menu{
+    /*Her ordnes den box, der omgiver knapperne samt placeringen af knapperne*/
+    background: #5aa300ff;
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+#header{
+    /*How the headline is gonna look*/
+    position: absolute;
+    text-align:center;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font: normal 100px "Trebuchet MS";
+    color: #039ee6ff; /*Eller 190a00ff*/
+}
+
+#skrifttype{
+    font-family: "Trebuchet MS";
+    color: #190a00ff;
+}
+
+#deloverskrift{
+    alignment: left;
+}
