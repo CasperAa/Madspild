@@ -28,6 +28,7 @@ html,body{
 
 }
 
+
 main{
 background-color: sandybrown;
 }
@@ -48,12 +49,22 @@ button:hover{
     color: black;
 }
 
-
+#logo{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+#logoAndHeadline{
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    }
 h1{
     margin: 10px;
     font-size: 50px;
-    padding: 20px;
-    text-align: center;
+    padding-top: 25px;
+    padding-left: 300px;
 }
 #preferences{
     font-size: 20px;
