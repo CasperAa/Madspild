@@ -12,15 +12,11 @@
     <button style="margin: 20px" id="Vision">Vores vision</button>
 </nav>
 
-<!-- Vælg din lokation: tekstfelt-->
-
-<!-- Postnummer: tekstfelt-->
-
 <!-- (Kort med butikslogoer) -->
 <div class="bg-img">
-    <form action="/action_page.php" class="container">
-        <h1>Find butik</h1>
-
+    <!-- Boks med indtast postnummer, gade -->
+    <form class="container">
+        <h1>Din lokation</h1>
         <label><b>Postnummer</b></label>
         <input type="text" placeholder="Postnummer" name="postnummer" required>
         <label><b>Gade</b></label>
@@ -31,6 +27,16 @@
 </div>
 
 <!-- Listevisning med butiksikoner -->
+<div>
+    <div class="btn-container">
+        <img src="css/order-images/scottie_yellow.png"/>
+        <input type="checkbox"  class="checkbox" id="checkbox" />
+    </div>
+    <div class="btn-container">
+        <img src="css/order-images/foetex_logo_RGB.png"/>
+        <input type="checkbox"  class="checkbox" id="checkbox" />
+    </div>
+</div>
 
 </body>
 </html>
