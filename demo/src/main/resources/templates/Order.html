@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bestilling</title>
+    <link rel="stylesheet" href="css/Order.css">
 </head>
 <body>
+<nav id="menu">
+    <button style="margin: 20px" id="Opskrifter">Opskrifter</button>
+    <button style="margin: 20px" id="Bestilling">Bestilling</button>
+    <button style="margin: 20px" id="Vision">Vores vision</button>
+</nav>
+
+<!-- (Kort med butikslogoer) -->
+<div class="bg-img">
+    <!-- Boks med indtast postnummer, gade -->
+    <form class="container">
+        <h1>Din lokation</h1>
+        <label><b>Postnummer</b></label>
+        <input type="text" placeholder="Postnummer" name="postnummer" required>
+        <label><b>Gade</b></label>
+        <input type="text" placeholder="Gadenavn" name="gade" required>
+
+        <button type="submit" class="btn">Søg</button>
+    </form>
+</div>
+
+<!-- Listevisning med butiksikoner -->
+<section class="blue-background">
+<div class="content-wrap">
+    <div class="btn-container">
+        <img src="css/order-images/scottie_yellow.png"/>
+        <input type="checkbox"  class="checkbox"/>
+    </div>
+    <div class="btn-container">
+        <img src="css/order-images/foetex_logo_RGB.png"/>
+        <input type="checkbox"  class="checkbox"/>
+    </div>
+    <div class="btn-container">
+        <img src="css/order-images/Starbucks_Positive_Pantone.png"/>
+        <input type="checkbox"  class="checkbox"/>
+    </div>
+    <div class="btn-container">
+        <img src="css/order-images/Bilka.png"/>
+        <input type="checkbox"  class="checkbox"/>
+    </div>
+    <div class="btn-container">
+        <img src="css/order-images/Wupti_Positive_CMYK.png"/>
+        <input type="checkbox"  class="checkbox"/>
+    </div>
+</div>
+</section>
 
 </body>
 </html>
