@@ -7,7 +7,7 @@
 
 }
 
-table.PerformanceTable {
+table.fixed-table {
     table-layout: fixed;
     width: 500px;
 }

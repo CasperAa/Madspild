@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+.blue-background {
+    background-color: #039ee6ff;
+}
+
 /*LOGO BUTTONS----------------------------------------*/
 .btn-container {
     float: left;
@@ -31,10 +35,6 @@
     margin: 0 auto;
 }
 
-.blue-background {
-    background-color: #039ee6ff;
-}
-
 /*ADDRESS BOX------------------------------------------*/
 body, html {
     height: 100%;
@@ -49,7 +49,7 @@ body, html {
     background-image: url("order-images/bykort-kbh.png");
     font-family: "Trebuchet MS";
     /* Control the height of the image */
-    min-height: 600px;
+    min-height: 400px;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -83,7 +83,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for the submit button */
 .btn {
-
     padding: 16px 20px;
     border: none;
     cursor: pointer;
