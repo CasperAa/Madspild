@@ -32,14 +32,12 @@
 }
 
 .blue-background {
-    color: #039ee6ff;
     background-color: #039ee6ff;
 }
 
 /*ADDRESS BOX------------------------------------------*/
 body, html {
     height: 100%;
-    background-color: #039ee6ff;
 }
 
 * {

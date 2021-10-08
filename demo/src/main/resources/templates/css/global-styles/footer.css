@@ -1,4 +1,13 @@
-.footer {
+* footer {
+    margin-top: 80px;
+    clear: both;
+    text-align: left;
+    padding: 20px;
+    border-top: 2px solid black;
 
+}
 
+table.PerformanceTable {
+    table-layout: fixed;
+    width: 500px;
 }
