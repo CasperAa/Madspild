@@ -3,8 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/Recipe/Recipe.css"/>
+    <link rel="stylesheet" type="text/css" href="css/Recipe/Checkbox.css"/>
+    <link rel="stylesheet" type="text/css" href="css/Recipe/FilterList.css"/>
+
 </head>
+
 <body>
+<header>
+    <nav id="menu">
+        <button style="margin-right: 100px">Opskrifter</button>
+        <button>Bestilling</button>
+        <button style="margin-left: 100px" id="Vision">Vores vision</button>
+        <h1> Nemme Opskrifter </h1>
+    </nav>
+</header>
+
+<main>
+
+    <div id="checkbox">
+        <h2 id="preferences"> Vælg præferencer </h2>
+    <label class="container">Vegetarisk
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Vegansk
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Glutenfri
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Nøddeallergi
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Mejeri allergi
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Halal
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+    </div>
+
+    <div class="search">
+        <label for="searchInput"></label>
+        <input type="text" id="searchInput" onkeyup="myFunction()" placeholder="Søg efter opskrifter..">
+        <ul id="items">
+            <li><a href="#">Svensk pølseret</a></li>
+            <li><a href="#">Mørbradgryde m. ris</a></li>
+            <li><a href="#">Spagetti carbonara</a></li>
+            <li><a href="#">Kylling i Karry</a></li>
+            <li><a href="#">Forloren hare</a></li>
+            <li><a href="#">Chili con carne</a></li>
+            <li><a href="#">Broccolisalat</a></li>
+            <li><a href="#">Græske frikadeller</a></li>
+            <li><a href="#">Gullash-suppe</a></li>
+            <li><a href="#">Tzatziki</a></li>
+            <li><a href="#">Jordbærsalat</a></li>
+            <li><a href="#">Lasagne</a></li>
+            <li><a href="#">Flæskesteg</a></li>
+            <li><a href="#">Dahl</a></li>
+            <li><a href="#">Lasagne med grøntsager</a></li>
+            <li><a href="#">Burger med kikærtebøffer</a></li>
+            <li><a href="#">Gulerodssuppe</a></li>
+            <li><a href="#">Panini brød</a></li>
+
+        </ul>
+
+        <script>
+            // Some borrowed Javascript to search and hide items
+            // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_list
+            function myFunction() {
+                // Declare variables
+                let input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('searchInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("items");
+                li = ul.getElementsByTagName('li');
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </div>
+
+
+</main>
+<footer>
+
+    <div>
+        <p> Venstre Footer </p>
+        <p> Venstre Footer </p>
+        <p> Venstre Footer </p>
+        <p> Venstre Footer </p>
+        <p> Venstre Footer </p>
+    </div>
+
+
+</footer>
 
 </body>
 </html>
