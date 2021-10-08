@@ -1,21 +1,9 @@
-*{
-    margin:0px;
-    padding: 0px;
-}
 #menu{
     /*Her ordnes den box, der omgiver knapperne samt placeringen af knapperne*/
     background: #5aa300ff;
     border: solid black;
     padding: 20px;
     text-align: center;
-}
-#menu button{
-    /*Her ordnes selve knapperne*/
-
-    font-size: 20px;
-    background:white;
-    color: black;
-    font: normal 14px Baskerville;
 }
 
 #header{
@@ -29,53 +17,11 @@
     color: #039ee6ff; /*Eller 190a00ff*/
 }
 
-.headlinetextdef
-{
-    font: normal 30px "Trebuchet MS";
-    font-weight: bold;
+#skrifttype{
+    font-family: "Trebuchet MS";
     color: #190a00ff;
 }
 
-.bodytextdef
-{
-    font: normal 17px "Trebuchet MS";
-    color: #190a00ff;
-    padding: 10px;
+#deloverskrift{
+    alignment: left;
 }
-
-.positiontextandpicture
-{
-    position: relative;
-    top: 170px;
-    left: 50px;
-}
-.positiontext1
-{
-    inline-size: 1360px;
-    overflow-wrap: break-word;
-}
-
-.positiontextandpicture2
-{
-    position: relative;
-    top: 280px;
-    left: 50px;
-    inline-size: 900px;
-    overflow-wrap: break-word;
-}
-
-#textbox1
-{
-
-}
-
-#textbox2
-{
-    clear:both;
-}
-
-#image2
-{
-    float:right;
-}
-
