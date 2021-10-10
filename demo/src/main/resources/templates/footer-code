@@ -5,7 +5,7 @@
 /*Footer til brug på alle side:*/
 <footer class="blue-background">
     <section>
-        <table class="fixed-table">
+        <table id="fixed-footer-table">
             <tr>
                 <td class="PerformanceTable"><b>Kontakinformation</b></td>
                 <td><b>FAQ</b></td>

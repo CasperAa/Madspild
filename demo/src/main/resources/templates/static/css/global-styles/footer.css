@@ -1,4 +1,4 @@
-* footer {
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -10,9 +10,12 @@
     border-top: 2px solid black;
     font-family: "Trebuchet MS";
     font-size: 16px;
+    background-color: #039ee6ff;
+
 }
 
-table.fixed-table {
+#fixed-footer-table {
     table-layout: fixed;
     width: 500px;
+
 }
