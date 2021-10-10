@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="css/global-styles/fonts.css"/>
 
 /*Footer til brug på alle side:*/
-<footer class="blue-background">
+<footer id="footer">
     <section>
         <table id="fixed-footer-table">
             <tr>
