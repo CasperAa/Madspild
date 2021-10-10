@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="css/Recipe/Recipe.css"/>
-    <link rel="stylesheet" type="text/css" href="css/Recipe/Checkbox.css"/>
-    <link rel="stylesheet" type="text/css" href="css/Recipe/FilterList.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/Recipe/Recipe.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/Recipe/Checkbox.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/Recipe/FilterList.css"/>
+    <link rel="stylesheet" href="static/css/global-styles/footer.css"/>
+    <link rel="stylesheet" href="static/css/global-styles/fonts.css"/>
+
 </head>
 
 <body>
 <header>
-
     <nav id="menu">
-        <button style="left: 13%; position: relative" id="opskrifter">Opskrifter</button>
-        <button style="left: 28%; position: relative" id="Bestilling">Bestilling</button>
-        <button style="left: 43%; position: relative" id="Vision">Vores Vision</button>
+        <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
+        <button>Bestilling</button>
+        <button style="margin-left: 300px">Vores vision</button>
     </nav>
 
     <div id="logoAndHeadline">
         <a href="https://localhost:8080/">
-            <img id="logo" src="css/HeaderLogo/food-waste-logo.png" alt="Main logo">
+            <img id="logo" src="static/css/Logo%20image/food-waste-logo.jpg" alt="Main logo">
         </a>
         <h1> Nemme Opskrifter </h1>
     </div>
+
 </header>
 
 <main>
@@ -112,17 +115,27 @@
 
 
 </main>
-<footer>
+<footer id="footer">
+    <section>
+        <table id="fixed-footer-table">
+            <tr>
+                <td><b>Kontakinformation</b></td>
+                <td><b>FAQ</b></td>
+                <td><b>Få mere at vide</b></td>
+            </tr>
+            <tr>
+                <td>Briesgade 33</td>
+                <td>Vidste du</td>
+                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+            </tr>
+            <tr>
+                <td>1326 København K</td>
+                <td>Masser af spild</td>
+                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+            </tr>
+        </table>
 
-    <div>
-        <p> Venstre Footer </p>
-        <p> Venstre Footer </p>
-        <p> Venstre Footer </p>
-        <p> Venstre Footer </p>
-        <p> Venstre Footer </p>
-    </div>
-
-
+    </section>
 </footer>
 
 </body>

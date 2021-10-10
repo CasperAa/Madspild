@@ -1,0 +1,27 @@
+/*Stylesheet links:*/
+<link rel="stylesheet" href="css/global-styles/footer.css"/>
+<link rel="stylesheet" href="css/global-styles/fonts.css"/>
+
+/*Footer til brug på alle side:*/
+<footer id="footer">
+    <section>
+        <table id="fixed-footer-table">
+            <tr>
+                <td><b>Kontakinformation</b></td>
+                <td><b>FAQ</b></td>
+                <td><b>Få mere at vide</b></td>
+            </tr>
+            <tr>
+                <td>Briesgade 33</td>
+                <td>Vidste du</td>
+                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+            </tr>
+            <tr>
+                <td>1326 København K</td>
+                <td>Masser af spild</td>
+                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+            </tr>
+        </table>
+
+    </section>
+</footer>

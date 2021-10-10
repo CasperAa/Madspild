@@ -1,0 +1,21 @@
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    clear: both;
+    text-align: left;
+    padding: 20px;
+    border-top: 2px solid black;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    background-color: #039ee6ff;
+
+}
+
+#fixed-footer-table {
+    table-layout: fixed;
+    width: 500px;
+
+}
