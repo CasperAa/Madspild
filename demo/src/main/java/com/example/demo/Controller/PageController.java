@@ -15,6 +15,11 @@ public class PageController {
         return "Recipe";
     }
 
+    @GetMapping("/Recipe/spaghetti-carbonara")
+    public String RecipePt2(){
+        return "Recipept2";
+    }
+
     @GetMapping("/Order")
     public String Order(){
         return "Order";
