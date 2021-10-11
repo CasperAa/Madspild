@@ -19,54 +19,76 @@
 <div id="container">
 
     <!-- butiksoversigt -->
-    <div id="header">
+    <div id="head">
+        <div id="shop-logo">
+            <img src="static/css/confirm-order-images/scottie_yellow.png"/>
+        </div>
+        <div id="we-offer">
+            <h1>Overskrift</h1>
+        </div>
+        <div id="favorit">
+            <input type="checkbox">
+            <label for="favorit"><b>Gem som favorit</b></label>
+        </div>
 
     </div>
 
     <!-- indhold -->
-    <div id="content">
-
-        <div id="Ordre">
-            <h1>Bekræft ordre</h1>
-            <label>Vegetarisk
+    <div id="upper-body">
+        <!-- bestillingsoversigt -->
+        <div id="deliver-or-pickup">
+            <b>Afhentning eller levering</b>
+            <!-- ordre: afhentning, levering-->
+            <tr>
+            <label>Afhentning
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
-
-            <label>Vegansk
+            </tr>
+            <label>Levering
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
         </div>
 
-        <div id="tabel antal/pris/varer"></div>
-            <table class="center">
-                <tr>Varer</tr>
-                <tr>Antal</tr>
-                <tr>Pris</tr>
+        <div id="overview">
+        <!-- tabel m. ordreinfo-->
+            <table id="item-quantity-price">
+                <tr>
+                    <th>Vare</th>
+                    <th>Antal</th>
+                    <th>Pris</th>
+                </tr>
+                <tr>
+                    <td>Ost</td>
+                    <td>2</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Mælk</td>
+                    <td>1</td>
+                    <td>12</td>
+                </tr>
+                <tr><td>Agurk</td>
+                    <td>3</td>
+                    <td>8</td>
+                </tr>
             </table>
         </div>
-
-        <div id="billede"></div>
-
+        <!-- billede-->
+        <div id="item-image">
+            <img src="static/css/confirm-order-images/COLOURBOX-groceries.jpg">
+        </div>
     </div>
-    <!-- bestillingsoversigt -->
+</div>
 
-    <!-- ordre: afhentning, levering-->
+<!-- adresse og levering -->
+<div id="lower-body">
+</div>
 
-    <!-- tabel m. ordreinfo-->
-
-    <!-- billede-->
-
-
-
-    <!-- adresse og levering -->
-
-
-    <!-- bekræft -->
-
-
-
+<!-- bekræft -->
+<div id="confirmation-button">
+    <button>Bekræft bestilling</button>
 </div>
 
 </body>

@@ -1,6 +1,6 @@
 /*Global
  Skrifttypen brug til dokumentet er Trebuchet MS*/
-p {
+* {
     font-family: "Trebuchet MS";
-    font-size: 12px;
+
 }
