@@ -30,4 +30,9 @@ public class PageController {
         return "confirm-order";
     }
 
+    @GetMapping("/order_page")
+    public String Order_page(){
+        return "Order-page";
+    }
+
 }
