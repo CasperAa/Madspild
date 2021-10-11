@@ -32,10 +32,45 @@
     top: -250px;
 }
 
-#placer_box{
+#box1{
     position: relative;
     left: 80px;
     top: -500px;
+    align: justify;
+    padding: 10px;
+    color: black;
+    background-color: lightgray;
+    border: gray 5px solid;
+    margin: 20px;
+    width: 1140px;
+    height: 300px;
+}
+
+#box2{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: gray 5px solid;
+    margin: 20px;
+    width: 500px;
+    height: 225px;
+    float: left;
+    text-align: left;
+}
+
+#box3{
+    position: relative;
+    left: 0px;
+    top: -500px;
+    align: justify;
+    padding: 10px;
+    color: black;
+    background-color: lightgray;
+    border: gray 5px solid;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    margin: auto;
 }
 
 /*Lånt kode fra https://codepen.io/jcoulterdesign/pen/azQMqG/ */
