@@ -12,57 +12,6 @@ html,body{
     background-color: khaki;
 }
 
-
-#menu{
-    /*Her odnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    display: flex;
-    background: darkolivegreen;
-    border-radius: 30px;
-
-    /*Margin*/
-    margin: 20px 200px 15px 200px;
-
-    /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
-    padding-bottom: 20px ;
-    padding-top: 20px;
-
-}
-main{
-    background-color: sandybrown;
-}
-
-button{
-    padding: 10px 30px;
-    background-color: antiquewhite;
-    color: #26272b;
-    border-radius: 20px;
-    transition: 0.3s;
-    font-size: 16px;
-
-}
-button:hover{
-    background-color: lightgrey;
-    color: black;
-}
-#logo{
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-}
-#logoAndHeadline{
-    display: flex;
-    position: relative;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-
-h1{
-    margin: 10px;
-    font-size: 50px;
-    padding-top: 25px;
-    padding-left: 30%;
-
-}
 #preferences{
     font-size: 20px;
     text-align: center;
@@ -75,16 +24,4 @@ main{
     align-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
-footer{
-    background-color:#26272b;
-    padding: 15px;
-    font-size:15px;
-    line-height:24px;
-    color:#737373;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
