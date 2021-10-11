@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", serif;
+}
+
+
+html,body{
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+
+#text{
+    background-color: bisque;
+    width: 300px;
+    border: 15px darkolivegreen;
+    padding: 50px;
+    margin-left: 25%;
+    text-align: left;
+
+}
+
+main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#title{
+    padding: 20px;
+    margin-left: 25%;
+}
+
+#pictureoffood{
+    width: 500px;
+    height: 300px;
+    margin-left: 5%;
+}
+
+#content{
+    display: flex;
+
+}
