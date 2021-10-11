@@ -37,7 +37,12 @@ public class PageController {
 
     @GetMapping("/order_page")
     public String Order_page(){
-        return "Order-page";
+        return "Order-page.html";
+    }
+
+    @GetMapping("/error")
+    public String error(){
+        return "Error";
     }
 
 }
