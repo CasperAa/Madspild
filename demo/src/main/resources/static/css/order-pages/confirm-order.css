@@ -1,4 +1,4 @@
-.center {
+#tabel-varer-antal-pris {
     margin-left: auto;
     margin-right: auto;
 
@@ -10,6 +10,81 @@
     margin-right: auto;
 }
 
-#content{
-    font-family: "Trebuchet MS";
-  }
+/*Butiksoversigt*/
+#head {
+    background-color: #039ee6;
+}
+
+#shop-logo {
+    float: left;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    clear: both;
+}
+
+#we-offer {
+    text-align: center;
+    padding: 40px 40px;
+}
+
+#favorit {
+    float: right;
+    background-color: #5aa300ff;
+    padding: 20px;
+    position: relative;
+}
+
+/*Indhold*/
+#upper-body {
+    padding: 10px;
+    clear: both;
+}
+
+#deliver-or-pickup {
+    float: left;
+    width: 150px;
+    padding: 20px;
+    background-color: #5aa300ff;
+}
+
+#overview {
+    float: left;
+    width: 400px;
+    padding: 0px 0px 20px 20px
+
+}
+
+#item-quantity-price {
+    table-layout: auto;
+    border: 2px solid black;
+    width: 100%;
+    text-align: left;
+
+}
+
+#item-image {
+    float: right;
+    width: 200px;
+    height: 200px;
+
+}
+
+#confirmation-button {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5aa300ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
