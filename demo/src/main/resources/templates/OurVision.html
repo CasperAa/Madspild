@@ -5,14 +5,21 @@
     <title>Title</title>
 
     <link rel="stylesheet" href="css/OurVision.css">
+    <link rel="stylesheet" type="text/css" href="css/global-styles/header.css">
+    <link rel="stylesheet" href="css/global-styles/footer.css"/>
+    <link rel="stylesheet" href="css/global-styles/fonts.css"/>
+
 </head>
 <body><!--style="background-color: rgba(3, 250, 85, .005)"-->
 
-<nav id="menu">
-    <button style="margin: 20px" id="opskrifter">Opskrifter</button>
-    <button style="margin: 20px" id="Bestilling">Bestilling</button>
-    <button style="margin: 20px" id="Vision">Vores Vission</button>
-</nav>
+<header>
+    <nav id="menu">
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
+    </nav>
+
+</header>
 
 <div id="header">
     <header>Vores vision</header>
@@ -39,7 +46,7 @@
 <div id="skrifttype"; style = "position:relative; left:20px; top:290px;">
     <img src="css/images/food-waste-bin.jpg" ;
          height="300" width="440" align="right" style="padding-left: 10px; padding-right: 20px;">
-    <h1>Overskrift om madspild</h1>
+    <h1 align="left";>Overskrift om madspild</h1>
     <p align="justify"; style="line-height: 1.5;">Brødtekst om madspild. Den er lang og informativ. Lorem ipsum
         dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
         aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
@@ -73,6 +80,31 @@
 </div>
 
 </body>
+
+
+<footer id="footer">
+    <section>
+        <table id="fixed-footer-table">
+            <tr>
+                <td><b>Kontakinformation</b></td>
+                <td><b>FAQ</b></td>
+                <td><b>Få mere at vide</b></td>
+            </tr>
+            <tr>
+                <td>Briesgade 33</td>
+                <td>Vidste du</td>
+                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+            </tr>
+            <tr>
+                <td>1326 København K</td>
+                <td>Masser af spild</td>
+                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+            </tr>
+        </table>
+
+    </section>
+</footer>
+
 </html>
 
 <!--To do:

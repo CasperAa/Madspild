@@ -15,6 +15,11 @@ public class PageController {
         return "Recipe";
     }
 
+    @GetMapping("/Recipe/spaghetti-carbonara")
+    public String RecipePt2(){
+        return "Recipept2";
+    }
+
     @GetMapping("/Order")
     public String Order(){
         return "Order";
@@ -32,7 +37,12 @@ public class PageController {
 
     @GetMapping("/order_page")
     public String Order_page(){
-        return "Order-page";
+        return "Order-page.html";
+    }
+
+    @GetMapping("/error")
+    public String error(){
+        return "Error";
     }
 
 }

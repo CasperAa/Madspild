@@ -15,14 +15,14 @@
 <body>
 <header>
     <nav id="menu">
-        <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
-        <button>Bestilling</button>
-        <button style="margin-left: 300px">Vores vision</button>
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
     </nav>
 
     <div id="logoAndHeadline">
         <a href="https://localhost:8080/">
-            <img id="logo" src="/static/css/Logo%20image/food-waste-logo.jpg" alt="Main logo">
+            <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
         <h1> Nemme Opskrifter </h1>
     </div>
@@ -70,7 +70,7 @@
         <ul id="items">
             <li><a href="#">Svensk pølseret</a></li>
             <li><a href="#">Mørbradgryde m. ris</a></li>
-            <li><a href="#">Spagetti carbonara</a></li>
+            <li><a href="http://localhost:8080/Recipe/spaghetti-carbonara">Spagetti carbonara *</a></li>
             <li><a href="#">Kylling i Karry</a></li>
             <li><a href="#">Forloren hare</a></li>
             <li><a href="#">Chili con carne</a></li>
