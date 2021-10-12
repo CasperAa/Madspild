@@ -31,6 +31,9 @@ button:hover{
     width: 100px;
     margin: 10px;
 }
+#logo:hover{
+    box-shadow: 5px 5px 10px grey;
+}
 #emptybox{
     height: 100px;
     width: 100px;
