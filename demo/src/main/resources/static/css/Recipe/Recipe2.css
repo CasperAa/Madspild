@@ -12,9 +12,8 @@ html,body{
 }
 
 #text{
-    width: 300px;
-    padding: 50px;
-    margin-left: 25%;
+    max-width: 400px;
+    padding-right: 50px;
     text-align: left;
 
 }
@@ -22,22 +21,19 @@ html,body{
 main{
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
-
 #title{
-    padding: 20px;
-    margin-left: 25%;
+    padding-bottom: 20px;
 }
 
 #pictureoffood{
     width: 500px;
     height: 300px;
-    margin-left: 5%;
 }
 
 #content{
     display: flex;
+    justify-content: center;
     align-content: center;
 
 }
