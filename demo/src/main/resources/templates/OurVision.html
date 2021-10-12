@@ -14,7 +14,7 @@
 
     <script>
         //Når knappen trykkes, bringes brugeren op til toppen.
-        function topFunction() {
+        function goToTop() {
             document.body.scrollTop = 0; // Safari
             document.documentElement.scrollTop = 0; // Chrome, Firefox, IE og Opera
         }
@@ -98,7 +98,7 @@
 </div>
 
     <div style="text-align: center">
-        <button onclick="topFunction()" id="top_button" title="Tilbage til toppen">Til toppen</button>
+        <button onclick="goToTop()" id="top_button" title="Tilbage til toppen">Til toppen</button>
     </div>
 
 </div>
