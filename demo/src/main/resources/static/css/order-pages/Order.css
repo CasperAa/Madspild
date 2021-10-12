@@ -33,6 +33,7 @@
 .content-wrap {
     width: 800px;
     margin: 0 auto;
+    position: relative;
 }
 
 /*ADDRESS BOX------------------------------------------*/
@@ -46,11 +47,10 @@ body, html {
 
 .bg-img {
     /* The image used */
-    background-image: url("static/css/order-images/bykort-kbh.png");
+    background-image: url("/bykort-kbh.png");
     font-family: "Trebuchet MS";
     /* Control the height of the image */
     min-height: 400px;
-
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
