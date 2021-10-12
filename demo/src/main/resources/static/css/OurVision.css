@@ -19,16 +19,33 @@ body{
     left:50%;
     transform: translate(-50%,-50%);
     font: normal 100px "Trebuchet MS";
-    color: #039ee6ff; /*Eller 190a00ff*/
+    color: #000000;
 }
 
-.elements{
+.elements {
     font-family: "Trebuchet MS";
     color: #190a00ff;
-    position:relative;
+    position: relative;
     padding: 20px;
+    padding-top: 100px;
 }
 
 #deloverskrift{
     alignment: left;
+}
+
+.image_left{
+    padding-right: 10px;
+    align: left;
+}
+
+.image_right{
+    align:right;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.image_size{
+    height: 300px;
+    width: 440px;
 }
