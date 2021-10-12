@@ -9,13 +9,10 @@ html,body{
     height: max-content;
     margin: 0;
     padding: 0;
-    background-color: khaki;
 }
 
 #text{
-    background-color: bisque;
     width: 300px;
-    border: 15px darkolivegreen;
     padding: 50px;
     margin-left: 25%;
     text-align: left;
@@ -25,6 +22,7 @@ html,body{
 main{
     padding-top: 40px;
     padding-bottom: 40px;
+
 }
 
 #title{
@@ -40,5 +38,6 @@ main{
 
 #content{
     display: flex;
+    align-content: center;
 
 }
