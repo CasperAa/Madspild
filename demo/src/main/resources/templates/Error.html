@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/>
-    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/>
-    <link rel="stylesheet" type="/static/text/css" href="css/global-styles/header.css">
-    <link rel="stylesheet" href="/static/css/error.css">
-
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/error.css">
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css">
+</head>
+<body>
     <header>
         <nav id="menu">
             <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
@@ -18,38 +20,38 @@
 
     </header>
 
-    <div>
-        <h1 style="alignment: center">Der er opstået et problem</h1>
+    <div id="error">
+
+        <h1>Der er opstået et problem</h1>
+
+    <button id="errorButton" onclick="window.location.href='//www.youtube.com/watch?v=dQw4w9WgXcQ'">Klik her for at komme tilbage</button>
     </div>
 
-    <button onclick="window.location.href='//www.youtube.com/watch?v=dQw4w9WgXcQ'">Klik her for at komme tilbage</button>
-</head>
-<body>
+    <footer id="footer">
+        <section>
+            <table id="fixed-footer-table">
+                <tr>
+                    <td><b>Kontakinformation</b></td>
+                    <td><b>FAQ</b></td>
+                    <td><b>Få mere at vide</b></td>
+                </tr>
+                <tr>
+                    <td>Briesgade 33</td>
+                    <td>Vidste du</td>
+                    <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+                </tr>
+                <tr>
+                    <td>1326 København K</td>
+                    <td>Masser af spild</td>
+                    <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+                </tr>
+            </table>
 
+        </section>
+    </footer>
 </body>
 
-<footer id="footer">
-    <section>
-        <table id="fixed-footer-table">
-            <tr>
-                <td><b>Kontakinformation</b></td>
-                <td><b>FAQ</b></td>
-                <td><b>Få mere at vide</b></td>
-            </tr>
-            <tr>
-                <td>Briesgade 33</td>
-                <td>Vidste du</td>
-                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
-            </tr>
-            <tr>
-                <td>1326 København K</td>
-                <td>Masser af spild</td>
-                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
-            </tr>
-        </table>
 
-    </section>
-</footer>
 
 
 </html>

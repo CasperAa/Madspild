@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <title>Thanks Buying</title>
 
-    <link rel="stylesheet" href="/static/css/ThanksBuying.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/ThanksBuying.css"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/fonts.css"/>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/header.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/colors.css"/>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 </head>
+
 <body>
 
-<nav id="menu">
-    <button style="margin-right: 100px"  id="opskrifter">Opskrifter</button>
-    <button style="margin-right: 100px"  id="Bestilling">Bestilling</button>
-    <button id="Vision">Vores Vision</button>
-</nav>
+<header>
+    <nav id="menu">
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
+    </nav>
+
+    <div id="logoAndHeadline">
+        <a href="https://localhost:8080/">
+            <img id="logo" src="/static/css/images/food-waste-logo.jpg/css/images/OurVision-images/food-waste-logo.jpg/css/images/food-waste-logo.jpg" alt="Main logo">
+        </a>
+    </div>
+
+</header>
 
 
 <div id="shoppingcart">
@@ -37,6 +58,29 @@
 
 </div>
 
-
 </body>
+
+<footer id="footer">
+    <section>
+        <table id="fixed-footer-table">
+            <tr>
+                <td><b>Kontakinformation</b></td>
+                <td><b>FAQ</b></td>
+                <td><b>Få mere at vide</b></td>
+            </tr>
+            <tr>
+                <td>Briesgade 33</td>
+                <td>Vidste du</td>
+                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+            </tr>
+            <tr>
+                <td>1326 København K</td>
+                <td>Masser af spild</td>
+                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+            </tr>
+        </table>
+
+    </section>
+</footer>
+
 </html>

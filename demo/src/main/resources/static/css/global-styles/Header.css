@@ -3,25 +3,22 @@
     display: -webkit-flex;
     border-radius: 30px;
 
-
     /*Margin*/
-    margin: 0 200px 15px 200px;
-
+    margin: 15px 200px 15px 200px;
+    border: 2px black solid;
     /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
-    padding-bottom: 20px ;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     justify-content: space-around;
 }
 #menu-button{
     padding: 10px 30px;
-    background: antiquewhite;
+    background: whitesmoke;
     color: #26272b;
     border-radius: 20px;
     transition: 0.3s;
     font-size: 16px;
     text-decoration: none;
-
-
 }
 
 #menu-button:hover{
@@ -32,12 +29,15 @@
 #logo{
     height: 100px;
     width: 100px;
-    padding: 10px;
+    margin: 10px;
+}
+#logo:hover{
+    box-shadow: 5px 5px 10px grey;
 }
 #emptybox{
     height: 100px;
     width: 100px;
-    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -46,12 +46,12 @@
     position: relative;
     justify-content: center;
     text-align: center;
+    border-bottom: 2px gray dotted;
 }
 
 h1{
     font-size: 45px;
     margin: auto;
-
 }
 
 a{

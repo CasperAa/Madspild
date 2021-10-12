@@ -1,3 +1,15 @@
-#button {
-    alignment: center;
+html{
+    width: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#error{
+     text-align: center;
+     padding: 15px;
+ }
+
+#errorButton{
+    margin-top: 10%;
 }
