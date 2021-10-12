@@ -2,9 +2,10 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 160px;
     clear: both;
     text-align: left;
+    padding: 0;
     border-top: 2px solid black;
     font-family: "Trebuchet MS", serif;
     font-size: 16px;
@@ -12,10 +13,13 @@
 }
 
 #fixed-footer-table {
-    width: max-content;
-    padding: 10px 0 10px 10px;
-    margin: 0;
-    justify-content: space-around;
+    table-layout: fixed;
+    width: auto;
+
+}
+
+#fixed-footer-table, td, th {
+    padding: 5px;
 }
 
 footer a{
