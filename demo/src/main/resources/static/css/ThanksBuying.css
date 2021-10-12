@@ -5,7 +5,7 @@ body{
 }
 
 #shoppingcart{
-    position: absolute;
+    position: relative;
     text-align:center;
     top: 60%;
     left:50%;
