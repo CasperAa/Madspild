@@ -5,7 +5,7 @@
     margin-top: 160px;
     clear: both;
     text-align: left;
-    padding: 20px;
+    padding: 0;
     border-top: 2px solid black;
     font-family: "Trebuchet MS", serif;
     font-size: 16px;
@@ -16,7 +16,7 @@
 
 #fixed-footer-table {
     table-layout: fixed;
-    width: 500px;
+    width: auto;
 
 }
 footer a{
