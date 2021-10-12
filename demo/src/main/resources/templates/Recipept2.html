@@ -3,27 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" type="text/css" href="/static/css/Recipe/Recipe2.css">
-  <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
-  <link rel="stylesheet" href="/static/css/global-styles/footer.css"/>
-  <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/Recipe/Recipe2.css">
+  <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
+  <link rel="stylesheet" type="text/css" href="/css/global-styles/footer.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/global-styles/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css">
+
 
 </head>
 
 <body>
-<header>
-
+<header id="mainHeader">
   <nav id="menu">
-    <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
-    <button>Bestilling</button>
-    <button style="margin-left: 300px">Vores vision</button>
+    <button id="opskrifter" onclick="window.location.href='//http:localhost:8080/Recipe'"> Opskrifter </button>
+    <button id="order" onclick="window.location.href='http:localhost:8080/Order'"> Bestilling </button>
+    <button id="vision" onclick="window.location.href='//http:localhost:8080/OurVision'"> Vores vision </button>
   </nav>
 
   <div id="logoAndHeadline">
     <a href="https://localhost:8080/">
       <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
     </a>
-    <h1> Spagetti carbonara </h1>
+    <h1> Speghetti Caponara </h1>
+    <div id="emptybox"> </div>
   </div>
 
 </header>
