@@ -5,28 +5,38 @@
     <title>Title</title>
 
     <link rel="stylesheet" href="css/OurVision.css">
-    <link rel="stylesheet" type="text/css" href="css/global-styles/header.css">
+    <link rel="stylesheet" type="text/css" href="css/global-styles/Header.css">
     <link rel="stylesheet" href="css/global-styles/footer.css"/>
     <link rel="stylesheet" href="css/global-styles/fonts.css"/>
     <link rel="stylesheet" href="css/global-styles/colors.css"/>
 
 </head>
-<body><!--style="background-color: rgba(3, 250, 85, .005)"-->
+<body>
 
 <header>
     <nav id="menu">
-        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
+        <button id="opskrifter" onclick="window.location.href='//http://localhost:8080/Recipe'"> Opskrifter </button>
+        <button id="order" onclick="window.location.href='http://localhost:8080/Order'"> Bestilling </button>
+        <button id="vision" onclick="window.location.href='//http://localhost:8080/OurVision'"> Vores vision </button>
     </nav>
+
+    <div id="logoAndHeadline">
+        <a href="https://localhost:8080/">
+            <img id="logo" src="css/images/food-waste-logo.jpg" alt="Main logo">
+        </a>
+
+        <h1> Nemme Opskrifter </h1>
+        <div id="emptybox"> </div>
+    </div>
 
 </header>
 
+<div>
 <div id="header">
     <header>Vores vision</header>
 </div>
 
-<div id="skrifttype"; style = "position:relative; left:5px; top:150px;">
+<div class="skrifttype"; style = "position:relative; left:5px; top:150px;">
     <img src="css/images/Image1.jpg"
          height="300" width="440" align="left" style="padding-right: 10px;">
     <h1> Overskrift om vores vision</h1>
@@ -44,7 +54,7 @@
         videntur parum clari, fiant sollemnes in futurum.</p>
 </div>
 
-<div id="skrifttype"; style = "position:relative; left:20px; top:290px;">
+<div class="skrifttype"; style = "position:relative; left:20px; top:290px;">
     <img src="css/images/food-waste-bin.jpg" ;
          height="300" width="440" align="right" style="padding-left: 10px; padding-right: 20px;">
     <h1 align="left";>Overskrift om madspild</h1>
@@ -62,7 +72,7 @@
         videntur parum clari, fiant sollemnes in futurum.</p>
 </div>
 
-<div id="skrifttype"; style = "position:relative; left:5px; top:430px;">
+<div class="skrifttype"; style = "position:relative; left:5px; top:430px;">
     <img src="css/images/Image3.jpg" ;
          height="300" width="440" align="left" style="padding-right: 10px;">
     <h1 id="deloverskrift">Overskrift om fællesskab</h1>
@@ -79,9 +89,9 @@
         litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis
         videntur parum clari, fiant sollemnes in futurum.</p>
 </div>
+</div>
 
 </body>
-
 
 <footer id="footer">
     <section>

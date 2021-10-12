@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 #header{
     /*How the headline is gonna look*/
     position: absolute;
@@ -17,7 +22,7 @@
     color: #039ee6ff; /*Eller 190a00ff*/
 }
 
-#skrifttype{
+.skrifttype{
     font-family: "Trebuchet MS";
     color: #190a00ff;
 }
