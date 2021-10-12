@@ -14,7 +14,8 @@
     left:50%;
     transform: translate(-50%,-50%);
     font: normal 50px "Trebuchet MS";
-    color: #039ee6ff; /*Eller 190a00ff*/
+    color: #42494f;
+    background: #e4d5b7;
 }
 
 #skrifttype{
@@ -34,19 +35,19 @@
 
 #box1{
     position: relative;
-    left: 80px;
+    margin-left: auto;
+    margin-right: auto;
     top: -530px;
     align: justify;
     padding: 10px;
     color: black;
     background-color: lightgray;
     border: gray 5px solid;
-    margin: 20px;
     width: 1140px;
     height: 300px;
 }
 
-#box2{
+.box2{
     padding: 10px;
     color: black;
     background-color: white;
@@ -73,10 +74,35 @@
     margin: auto;
 }
 
-#select_button{
+#boxes{
+    alignment: center;
+}
+
+.box_headline{
+    margin: 0px;
+}
+
+#img1{
+    float: right;
+    position: relative;
+    top: -20px;"
+}
+
+.select_button{
     position: relative;
     left: 0px;
-    top: -70px;
+    top: -60px;
+}
+
+#store_logo{
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+#img2{
+    float: right;
+    position: relative;
+    top: -10px;
 }
 
 /*Lånt kode fra https://codepen.io/jcoulterdesign/pen/azQMqG/ */
@@ -93,6 +119,10 @@
     bottom: 0;
     top: 0;
     margin: auto;
+}
+
+body{
+    height: max-content;
 }
 
 body {
