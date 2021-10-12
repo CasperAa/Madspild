@@ -3,13 +3,13 @@
     display: -webkit-flex;
     border-radius: 30px;
 
-
     /*Margin*/
-    margin: 0 200px 15px 200px;
+    margin: 15px 200px 15px 200px;
+
 
     /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
-    padding-bottom: 20px ;
-    padding-top: 20px;
+    padding-bottom: 15px ;
+    padding-top: 15px;
     justify-content: space-around;
 }
 button{
@@ -20,8 +20,6 @@ button{
     transition: 0.3s;
     font-size: 16px;
     text-decoration: none;
-
-
 }
 
 button:hover{
