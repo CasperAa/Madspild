@@ -5,11 +5,13 @@ body{
 }
 
 #shoppingcart{
-    position: absolute;
+    position: relative;
     text-align:center;
     top: 60%;
     left:50%;
     transform: translate(-50%,-50%);
+    clear: both;
+    float: bottom;
 
 }
 
@@ -47,4 +49,8 @@ body{
     transform: translate(-50%,-50%);
     font: italic 100px Trebuchet MS;
     z-index: 5;
+}
+
+#content-wrap {
+    width: 800px;
 }

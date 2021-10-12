@@ -1,3 +1,7 @@
+html, body {
+    min-height: 100%;
+}
+
 #menu{
     /*Her ordnes den box, der omgiver knapperne samt placeringen af knapperne*/
     background: #5aa300ff;
@@ -24,4 +28,8 @@
 
 #deloverskrift{
     alignment: left;
+}
+
+#push {
+    height: 75px;
 }
