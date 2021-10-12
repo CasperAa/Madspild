@@ -10,8 +10,6 @@
     /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
     padding-bottom: 20px ;
     padding-top: 20px;
-    text-decoration: none;
-
 }
 button{
     padding: 10px 30px;
@@ -21,9 +19,9 @@ button{
     transition: 0.3s;
     font-size: 16px;
     text-decoration: none;
-
-
+    margin-left: 18%;
 }
+
 button:hover{
     background-color: lightgrey;
     color: black;
@@ -38,16 +36,20 @@ button:hover{
     display: flex;
     position: relative;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 h1{
     margin: 10px;
     font-size: 50px;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 30%;
 }
 
 main{
     background-color: sandybrown;
+}
+a{
+    text-decoration:none;
+    color: black;
 }
