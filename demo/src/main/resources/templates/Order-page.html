@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <link rel="stylesheet" href="/static/css/Order-page.css">
-    <link rel="stylesheet" type="text/css" href="static/css/global-styles/header.css">
-    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/>
-    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/>
+    <link rel="stylesheet" href="css/Order-page.css">
+    <link rel="stylesheet" type="text/css" href="css/global-styles/header.css">
+    <link rel="stylesheet" href="css/global-styles/footer.css"/>
+    <link rel="stylesheet" href="css/global-styles/fonts.css"/>
     <link rel="stylesheet" href="css/global-styles/colors.css"/>
 
 </head>
-<body id="background"><!--style="background-color: rgba(3, 250, 85, .005)"-->
+<body id="background">
 
 <header>
     <nav id="menu">
@@ -23,8 +23,8 @@
 </header>
 
 <div>
-    <img src="/static/css/images/netto-logo.png"
-         height="100" width="100" align="left"; style="padding-left: 300px; padding-top: 40px">
+    <img src="css/images/netto-logo.png"
+         height="100" width="100" align="left"; id="store_logo">
     <header id="header">Hvad vi tilbyder</header>
 
 </div>
@@ -239,23 +239,22 @@
 </div>
 
 <div id="box1";>
-    <div style="alignment: center">
-        <div id="box2";>
-            <h1 style="margin: 0px;">Madkasse 1</h1>
+    <div id="boxes">
+        <div class="box2";>
+            <h1 class="box_headline">Madkasse 1</h1>
             <div>
                 <img src="css/images/vegetable_bag.jpg" height="150" width="230" align="right"
-                     style="float: right; position: relative; top: -20px;" />
+                     id="img1" />
                 <p>Denne madkasse er fyldt med alverdens grøntsager, der skal bruges snarest.<br><br><br>20 kr.</p>
-                <button id="select_button" style="top: -60px;"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
+                <button class="select_button"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
             </div>
 
         </div>
-        <div id="box2";>
-            <h1 style="margin: 0px;">Madkasse 2</h1>
-            <img src="css/images/Ready-made.png" height="150" width="300" align="right"
-                 style="float: right; position: relative; top: -10px;" />
+        <div class="box2";>
+            <h1 class="box_headline">Madkasse 2</h1>
+            <img src="css/images/Ready-made.png" height="150" width="300" align="right" id="img2"/>
             <p>Denne madkasse er en blanding af færdigretter, der nærmer sig sidste udløbsdato.<br><br><br>30 kr.</p>
-            <button id="select_button"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
+            <button class="select_button"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
 
         </div>
     </div>
@@ -267,7 +266,7 @@
 
 </body>
 
-<footer id="footer" style="position: relative; top: -550px;">
+<footer id="footer"> <!--  style="position: relative; top: -550px;" -->
     <section>
         <table id="fixed-footer-table">
             <tr>
@@ -290,5 +289,5 @@
     </section>
 </footer>
 
-
+</body>
 </html>
