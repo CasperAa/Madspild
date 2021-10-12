@@ -22,22 +22,13 @@ body{
     color: #039ee6ff; /*Eller 190a00ff*/
 }
 
-.skrifttype{
+.elements{
     font-family: "Trebuchet MS";
     color: #190a00ff;
     position:relative;
+    padding: 20px;
 }
 
 #deloverskrift{
     alignment: left;
-}
-
-#div1{
-    left:5px;
-    top:150px;
-}
-
-#div2{
-    left:20px;
-    top:290px;
 }
