@@ -24,17 +24,17 @@
 
     <div id="logoAndHeadline">
         <a href="https://localhost:8080/">
-            <img id="logo" src="css/images/food-waste-logo.jpg" alt="Main logo">
+            <img id="logo" src="css/images/no_text_transparant_food_waste_logo.png" alt="Main logo">
         </a>
 
-        <h1> Nemme Opskrifter </h1>
+        <h1></h1>
         <div id="emptybox"> </div>
     </div>
 
 </header>
 
 <div>
-    <img src="css/images/netto-logo.png"
+    <img src="css/images/Order-page-images/netto-logo.png"
          height="100" width="100" align="left"; id="store_logo">
     <header id="header">Hvad vi tilbyder</header>
 
@@ -254,25 +254,29 @@
         <div class="box2";>
             <h1 class="box_headline">Madkasse 1</h1>
             <div>
-                <img src="css/images/vegetable_bag.jpg" height="150" width="230" align="right"
+                <img src="css/images/Order-page-images/vegetable_bag.jpg" height="150" width="230" align="right"
                      id="img1" />
                 <p>Denne madkasse er fyldt med alverdens grøntsager, der skal bruges snarest.<br><br><br>20 kr.</p>
-                <button class="select_button"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
+                <button class="select_button" onclick="window.location.href='http://localhost:8080/confirm_order'">
+                    Vælg </button>
             </div>
 
         </div>
         <div class="box2";>
             <h1 class="box_headline">Madkasse 2</h1>
-            <img src="css/images/Ready-made.png" height="150" width="300" align="right" id="img2"/>
+            <img src="css/images/Order-page-images/Ready-made.png" height="150" width="300" align="right" id="img2"/>
             <p>Denne madkasse er en blanding af færdigretter, der nærmer sig sidste udløbsdato.<br><br><br>30 kr.</p>
-            <button class="select_button"> <a href="http://localhost:8080/ThanksBuying"> Vælg </a></button>
+            <div>
+                <button class="select_button" onclick="window.location.href='http://localhost:8080/confirm_order'">
+                    Vælg </button>
+            </div>
 
         </div>
     </div>
 </div>
 
 <div id="box3";>
-    <p>Borgmestervangen 5<br>2200 København</p>
+    <p><b>Adresse</b><br><br>Borgmestervangen 5<br>2200 København</p>
 </div>
 
 </body>
