@@ -13,7 +13,9 @@
         <a href="https://localhost:8080/">
             <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
+//Skift overskrift
         <h1> Nemme Opskrifter </h1>
+        <div id="emptybox"> </div>
     </div>
 
 </header>

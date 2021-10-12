@@ -2,17 +2,23 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 160px;
     clear: both;
     text-align: left;
+    padding: 20px;
     border-top: 2px solid black;
+    font-family: "Trebuchet MS", serif;
     font-size: 16px;
-    background-color: #039ee6ff;
-    position: relative;
-    padding-bottom: 20px;
+    color: #fff;
+
+
 }
 
 #fixed-footer-table {
     table-layout: fixed;
     width: 500px;
 
+}
+footer a{
+    color: #ffffff;
 }
