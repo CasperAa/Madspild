@@ -6,22 +6,35 @@
 
     <!-- Således laver man kommentarer -->
 
-    <link rel="stylesheet" href="css/startPage.css"/>
+    <link rel="stylesheet" href="/static/static/css/startPage.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/header.css">
+
 
 </head>
 <body>
 
-<nav id="menu">
-    <button style="margin-right: 100px"  id="opskrifter">Opskrifter</button>
-    <button style="margin-right: 100px"  id="Bestilling">Bestilling</button>
-    <button id="Vision">Vores Vision</button>
-</nav>
+<header>
+    <nav id="menu">
+        <button style="margin-right: 300px; margin-left: 230px"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button style="margin-left: 300px" > <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
+    </nav>
+
+
+    <div id="logoAndHeadline">
+        <a href="https://localhost:8080/">
+            <img id="logo" src="/static/css/Logo%20image/food-waste-logo.jpg" alt="Main logo">
+        </a>
+
+    </div>
+
 
 <header id="header">
     <header id="overkskrift">Still tasty - no wasty</header>
 </header>
+</header>
 
-<img src="static/Grøntsager.jpg" id="grøntsager">
+<img src="/static/Grøntsager.jpg" id="grøntsager">
 
 
 
@@ -32,7 +45,7 @@
             <td>
                 <div class="imgContainer">
                     <div>
-                        <img src="static/Grøntsager.jpg" width="70%" height="70%"/>
+                        <img src="/static/Grøntsager.jpg" width="70%" height="70%"/>
 
                     </div>
 
@@ -49,7 +62,7 @@
             <td>
                 <div class="imgContainer">
                     <div>
-                        <img src="static/Grøntsager.jpg" width="70%" height="70%"/>
+                        <img src="/static/Grøntsager.jpg" width="70%" height="70%"/>
                     </div>
                     <div class="imgButton">
                         <button class="knap">Bestilling</button>
@@ -65,7 +78,7 @@
                 <div class="imgContainer">
                     <div>
 
-                        <img src="static/Grøntsager.jpg" width="70%" height="70%"/>
+                        <img src="/static/Grøntsager.jpg" width="70%" height="70%"/>
 
                     </div>
 
@@ -83,19 +96,28 @@
 </body>
 
 
-<footer id="fod">
-    <table>
-        <td style="padding-right: 100px"> Kontakinformation</td>
-        <td style="padding-right: 100px">FAQ</td>
-        <td>Få mere at vide</td>
-    </table>
+<footer id="footer">
+    <section>
+        <table id="fixed-footer-table">
+            <tr>
+                <td><b>Kontakinformation</b></td>
+                <td><b>FAQ</b></td>
+                <td><b>Få mere at vide</b></td>
+            </tr>
+            <tr>
+                <td>Briesgade 33</td>
+                <td>Vidste du</td>
+                <td><a href="https://politiken.dk/search/?q=madspild">Politiken</a></td>
+            </tr>
+            <tr>
+                <td>1326 København K</td>
+                <td>Masser af spild</td>
+                <td><a href="https://www.berlingske.dk/search?query=madspild">Berlingske</a></td>
+            </tr>
+        </table>
 
+    </section>
 
-    <table>
-        <td style="padding-right: 80px"> CVR: 92938238384 <br>kea@gmail.com <br>Briegade 33 <br>4300 København K< </td>
-        <td style="padding-right: 40px">Vidste du <br> Masser af spild </td>
-        <td>politikken <br> Berlingske <br> halfan Rasmussens </td>
-    </table>
 </footer>
 
 

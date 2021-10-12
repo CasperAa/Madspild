@@ -1,11 +1,11 @@
 #menu{
     /*Her odnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    display: flex;
-    background: darkolivegreen;
+    display: -webkit-flex;
     border-radius: 30px;
 
+
     /*Margin*/
-    margin: 20px 200px 15px 200px;
+    margin: 0 200px 15px 200px;
 
     /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
     padding-bottom: 20px ;
@@ -14,12 +14,14 @@
 }
 button{
     padding: 10px 30px;
-    background-color: antiquewhite;
+    background: antiquewhite;
     color: #26272b;
     border-radius: 20px;
     transition: 0.3s;
     font-size: 16px;
     text-decoration: none;
+
+
 }
 
 button:hover{
@@ -40,7 +42,7 @@ button:hover{
 
 
 #logoAndHeadline{
-    display: flex;
+    display: -webkit-flex;
     position: relative;
     justify-content: center;
     text-align: center;
@@ -51,9 +53,7 @@ h1{
     margin: auto;
 
 }
-main{
-    background-color: sandybrown;
-}
+
 a{
     text-decoration:none;
     color: black;
