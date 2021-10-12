@@ -85,12 +85,4 @@ body{
     z-index:+5;
 }
 
-#fod{
-    /*Ordner selve foden, hvor meget den skal fylde og hvor den skal placeres*/
-    margin-top: 80px;
-    clear: both;
-    text-align: left;
-    padding: 20px;
-    border-top: 2px solid black;
-}
 
