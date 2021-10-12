@@ -15,13 +15,11 @@ body{
     font: italic 100px Trebuchet MS;
     z-index: 5;
 
-    display: block;
-    border: #26272b;
 }
 
 
 #shoppingcart{
-    margin-top: 0%;
+    margin-top: 5%;
     margin-left: 50%;
 
     text-align:center;
@@ -31,6 +29,9 @@ body{
 
     transform: translate(-50%,-5%);
 
+    display: block;
+    border: dashed #27af1d;
+    border-radius: 20px;
 }
 
 
@@ -39,4 +40,5 @@ body{
 }
 #arrow{
     margin-top: 0%;
+
 }
