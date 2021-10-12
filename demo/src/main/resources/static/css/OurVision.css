@@ -49,3 +49,19 @@ body{
     height: 300px;
     width: 440px;
 }
+
+top_button{
+    padding: 10px 30px;
+    background: whitesmoke;
+    color: #26272b;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+top_button:hover{
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+}
