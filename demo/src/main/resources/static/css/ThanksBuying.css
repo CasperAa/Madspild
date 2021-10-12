@@ -5,37 +5,38 @@ body{
 }
 
 #header2{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 50%;
 
     text-align:center;
     top: 20%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-5%);
     font: italic 100px Trebuchet MS;
     z-index: 5;
+
+    display: block;
+    border: #26272b;
 }
 
 
 #shoppingcart{
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 50%;
-    margin-bottom: 5%;
-    text-align: center;
 
-    transform: translate(-50%,-50%);
+    text-align:center;
+    top: 20%;
+    left:50%;
+
+
+    transform: translate(-50%,-5%);
 
 }
 
 
 #bekræftelsesmail{
-    margin-top: 20%;
-    margin-left: 50%;
-    text-align:center;
-    top: 20%;
-    left:50%;
-    transform: translate(-50%,-50%);
     font: italic 50px Trebuchet MS;
-    z-index: 5;
-
+}
+#arrow{
+    margin-top: 0%;
 }
