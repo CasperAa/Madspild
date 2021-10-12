@@ -25,8 +25,19 @@ body{
 .skrifttype{
     font-family: "Trebuchet MS";
     color: #190a00ff;
+    position:relative;
 }
 
 #deloverskrift{
     alignment: left;
+}
+
+#div1{
+    left:5px;
+    top:150px;
+}
+
+#div2{
+    left:20px;
+    top:290px;
 }
