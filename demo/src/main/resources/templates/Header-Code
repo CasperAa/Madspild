@@ -10,7 +10,7 @@
     </nav>
 
     <div id="logoAndHeadline">
-        <a href="https://localhost:8080/">
+        <a href="http://localhost:8080/home">
             <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
 //Skift overskrift

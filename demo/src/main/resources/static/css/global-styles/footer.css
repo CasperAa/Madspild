@@ -2,7 +2,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 160px;
+    margin-top: 100px;
     clear: both;
     text-align: left;
     border-top: 2px solid black;
@@ -12,14 +12,12 @@
 }
 
 #fixed-footer-table {
-    table-layout: fixed;
     width: max-content;
     padding: 10px 0 10px 10px;
     margin: 0;
     justify-content: space-around;
-
-
 }
+
 footer a{
     color: #ffffff;
 }

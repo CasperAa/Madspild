@@ -12,9 +12,7 @@ html,body{
 }
 
 #text{
-    background-color: bisque;
     width: 300px;
-    border: 15px darkolivegreen;
     padding: 50px;
     margin-left: 25%;
     text-align: left;

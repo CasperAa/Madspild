@@ -11,18 +11,24 @@
     <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css">
 </head>
 <body>
-    <header>
-        <nav id="menu">
-            <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-            <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-            <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
-        </nav>
+<header>
+    <nav id="menu">
+        <button id="opskrifter" onclick="window.location.href='/Recipe'"> Opskrifter </button>
+        <button id="order" onclick="window.location.href='/Order'"> Bestilling </button>
+        <button id="vision" onclick="window.location.href='/OurVision'"> Vores vision </button>
+    </nav>
 
-    </header>
+    <div id="logoAndHeadline">
+        <a href="http://localhost:8080/home">
+            <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
+        </a>
+        <h1>Der er opstået et problem</h1>
+        <div id="emptybox"> </div>
+    </div>
+
+</header>
 
     <div id="error">
-
-        <h1>Der er opstået et problem</h1>
 
     <button id="errorButton" onclick="window.location.href='//www.youtube.com/watch?v=dQw4w9WgXcQ'">Klik her for at komme tilbage</button>
     </div>
