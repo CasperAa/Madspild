@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vores vision</title>
 
     <link rel="stylesheet" href="css/OurVision.css">
     <link rel="stylesheet" type="text/css" href="css/global-styles/Header.css">
@@ -11,6 +11,28 @@
     <link rel="stylesheet" href="css/global-styles/colors.css"/>
 
     <link rel="icon" href="css/images/favicon.ico"/>
+
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("top_button");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 
 </head>
 <body>
@@ -88,6 +110,11 @@
         litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis
         videntur parum clari, fiant sollemnes in futurum.</p>
 </div>
+
+    <div style="text-align: center">
+        <button onclick="topFunction()" id="top_button" title="Tilbage til toppen">Til toppen</button>
+    </div>
+
 </div>
 
 </body>
