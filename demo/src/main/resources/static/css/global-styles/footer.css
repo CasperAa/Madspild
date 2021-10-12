@@ -17,6 +17,11 @@
     width: auto;
 
 }
+
+#fixed-footer-table, td, th {
+    padding: 5px;
+}
+
 footer a{
     color: #ffffff;
 }
