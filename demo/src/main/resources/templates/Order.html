@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Bestilling</title>
-    <link rel="stylesheet" href="static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="static/css/global-styles/header.css">
+    <link rel="stylesheet" href="/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/global-styles/Header.css"/>
+    <link rel="stylesheet" href="/css/global-styles/colors.css"/>
 </head>
 <body>
 <header>
     <nav id="menu">
-        <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
-        <button>Bestilling</button>
-        <button style="margin-left: 300px">Vores vision</button>
+        <button id="opskrifter" onclick="window.location.href='/Recipe'"> Opskrifter </button>
+        <button id="order" onclick="window.location.href='/Order'"> Bestilling </button>
+        <button id="vision" onclick="window.location.href='/OurVision'"> Vores vision </button>
     </nav>
 
     <div id="logoAndHeadline">
-        <a href="https://localhost:8080/">
-            <img id="logo" src="static/css/Logo%20image/food-waste-logo.jpg" alt="Main logo">
+        <a href="http://localhost:8080/home">
+            <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
-
-        //Skift overskrift
-        <h1> Nemme Opskrifter </h1>
+        <h1> Vælg Butik </h1>
+        <div id="emptybox"> </div>
     </div>
 
 </header>

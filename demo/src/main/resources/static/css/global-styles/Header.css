@@ -1,18 +1,20 @@
 #menu{
     /*Her odnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    display: -webkit-flex;
-    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 70%;
+    height: 40px;
 
     /*Margin*/
-    margin: 15px 200px 15px 200px;
+    margin-top: 25px;
     border: 2px black solid;
     /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
-    padding-bottom: 15px;
     padding-top: 15px;
-    justify-content: space-around;
+    padding-bottom: 15px;
 }
 button{
-    padding: 10px 30px;
+    padding: 5px 30px;
     background: whitesmoke;
     color: #26272b;
     border-radius: 20px;
@@ -29,32 +31,34 @@ button:hover{
 #logo{
     height: 100px;
     width: 100px;
-    margin: 10px;
-}
-#logo:hover{
-    box-shadow: 5px 5px 10px grey;
+    margin: 15px;
 }
 #emptybox{
     height: 100px;
     width: 100px;
-    margin: 10px;
+    margin: 15px;
+}
+#logo:hover{
+    box-shadow: 5px 5px 10px grey;
 }
 
 
-#logoAndHeadline{
+#Headline{
     display: -webkit-flex;
     position: relative;
     justify-content: center;
     text-align: center;
     border-bottom: 2px gray dotted;
-}
-
-h1{
-    font-size: 45px;
-    margin: auto;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 a{
     text-decoration:none;
     color: black;
+}
+#logoAndButtons{
+    display: flex;
+    justify-content: space-between;
 }
