@@ -10,10 +10,6 @@
     text-align: center;
 }
 
-.blue-background {
-    background-color: #039ee6ff;
-}
-
 /*LOGO BUTTONS----------------------------------------*/
 .btn-container {
     float: right;
@@ -31,11 +27,12 @@
     right: 0px;
 }
 
+#content-wrap {
+    width: 800px;
+}
 
 /*ADDRESS BOX------------------------------------------*/
-body, html {
-    height: 100%;
-}
+
 
 * {
     box-sizing: border-box;
@@ -43,7 +40,7 @@ body, html {
 
 #bg-img {
     /* The image used */
-    background-image: url("static/css/images/order-images/bykort-kbh.png");
+    background-image: url("static/css/images/bykort-kbh.png");
     /* Control the height of the image */
     min-height: 400px;
 

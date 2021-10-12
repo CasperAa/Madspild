@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="/static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/global-styles/Header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
+    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
 </head>
 <body>
 
 <header>
     <nav id="menu">
-        <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
-        <button>Bestilling</button>
-        <button style="margin-left: 300px">Vores vision</button>
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
     </nav>
 
     <div id="logoAndHeadline">
@@ -22,6 +23,7 @@
             <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
         <h1>Bestil</h1>
+        <div id="emptybox"> </div>
     </div>
 
 </header>
@@ -29,6 +31,7 @@
 <!-- (Kort med butikslogoer) -->
 <div id="bg-img">
     <!-- Boks med indtast postnummer, gade -->
+
     <form class="formcontainer">
         <h1>Din lokation</h1>
         <label><b>Postnummer</b></label>
@@ -41,7 +44,7 @@
 
 <!-- Listevisning med butiksikoner -->
 <section>
-<div class="content-wrap">
+<div id="content-wrap">
     <div class="btn-container">
         <img src="/static/css/images/order-images/scottie_yellow.png"/> <!-- > skriv static/css... for at åbne direkte-->
         <input type="checkbox"  class="checkbox"/>

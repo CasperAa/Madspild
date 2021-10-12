@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/static/css/order-pages/confirm-order.css"> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
+    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
 </head>
 <header>
     <nav id="menu">
-        <button style="margin-right: 300px; margin-left: 230px">Opskrifter</button>
-        <button>Bestilling</button>
-        <button style="margin-left: 300px">Vores vision</button>
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
     </nav>
 
     <div id="logoAndHeadline">
         <a href="https://localhost:8080/">
-            <img id="logo" src="static/css/Logo%20image/food-waste-logo.jpg" alt="Main logo">
+            <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
-
-        //Skift overskrift
-        <h1> Nemme Opskrifter </h1>
+        <h1>Bekræft bestilling</h1>
+        <div id="emptybox"> </div>
     </div>
 
 </header>
@@ -36,7 +37,7 @@
             <img src="static/css/confirm-order-images/scottie_yellow.png"/>
         </div>
         <div id="we-offer">
-            <h1>Overskrift</h1>
+            <h1>Vi tilbyder</h1>
         </div>
         <div id="favorit">
             <input type="checkbox">
