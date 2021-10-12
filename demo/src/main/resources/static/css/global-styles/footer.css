@@ -13,7 +13,7 @@
 }
 
 #fixed-footer-table {
-    table-layout: fixed;
+    table-layout: auto;
     width: auto;
 
 }
