@@ -1,0 +1,4 @@
+Denne lille kodedel skal tilføjes inde i head-tagget. Den tilføjer et ikon til fanebladet i browseren.
+Det kaldes et favicon.
+
+    <link rel="icon" href="css/images/favicon.ico"/>

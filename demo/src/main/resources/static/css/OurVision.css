@@ -23,7 +23,7 @@ body{
 }
 
 .elements {
-    font-family: "Trebuchet MS";
+    font-family: "Trebuchet MS", serif;
     color: #190a00ff;
     position: relative;
     padding: 20px;
