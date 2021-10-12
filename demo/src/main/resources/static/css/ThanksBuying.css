@@ -4,47 +4,38 @@ body{
 
 }
 
-#shoppingcart{
-    position: relative;
-    text-align:center;
-    top: 60%;
-    left:50%;
-    transform: translate(-50%,-50%);
-
-}
-
-/*#header{
-
-    border: solid black;
-
-    /*Ændre tykkelse på border
-    border-width: 5px;
-
-    /*Ændre skarpe kanterne skal være på border
-    border-radius: 20px;
-
-    /*Ændre hvor bred borderen er
-    margin-left: 580px;
-    margin-right: 580px;
-
-    /*Ændre hvor meget plads der fra tekst til toppen af border og fra tekst til bunden af border
-    padding-top: 15px ;
-    padding-bottom: 15px;
-
-    font: bold 30px Trebuchet MS;
-
-    /*Man skal både skrive text-align og position for at få det i midten
-    text-align: center;
-    position: center;
-
-}*/
-
 #header2{
-    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+
     text-align:center;
     top: 20%;
     left:50%;
     transform: translate(-50%,-50%);
     font: italic 100px Trebuchet MS;
     z-index: 5;
+}
+
+
+#shoppingcart{
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    text-align: center;
+
+    transform: translate(-50%,-50%);
+
+}
+
+
+#bekræftelsesmail{
+    margin-top: 20%;
+    margin-left: 50%;
+    text-align:center;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font: italic 50px Trebuchet MS;
+    z-index: 5;
+
 }
