@@ -1,5 +1,4 @@
 #menu{
-    /*Her odnes den box som omgiver knapperne og samtidig placering af knapperne*/
     display: flex;
     justify-content: space-around;
     border-radius: 20px;
