@@ -9,44 +9,6 @@ body{
 }
 
 
-#menu{
-    /*Her ordnes den box som omgiver knapperne og samtidig placering af knapperne*/
-
-    background: #039ee6ff;
-    border-radius: 30px;
-    padding: 5px;
-
-    text-align: center;
-    position: center;
-
-    /*Margin*/
-    margin-top: 20px;
-    margin-right: 425px ;
-    margin-left:425px ;
-    margin-bottom: 15px;
-
-    /*padding fortæller noget om hvor stor selve panel-boxen skal være*/
-
-    padding-bottom: 20px ;
-    padding-top: 20px;
-
-}
-
-#menu button{
-    /*Her ordnes selve knapperne*/
-
-    border-radius: 30px;
-    border-color: black;
-    height: 50px;
-    width: 100px;
-
-    font-size: 20px;
-    background:white;
-    color: black;
-    font: normal 14px Trebuchet MS;
-
-}
-
 #overkskrift{
     position: absolute;
     text-align:center;

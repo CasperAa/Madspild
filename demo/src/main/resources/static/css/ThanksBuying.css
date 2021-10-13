@@ -5,11 +5,11 @@ body{
 }
 
 #header2{
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 50%;
 
     text-align:center;
-    top: 20%;
+    top: 10%;
     left:50%;
     transform: translate(-50%,-5%);
     font: italic 100px Trebuchet MS;
