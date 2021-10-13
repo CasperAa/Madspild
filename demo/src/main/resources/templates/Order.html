@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Bestilling</title>
-    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
-    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
+    <link rel="stylesheet" href="/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
+    <link rel="stylesheet" href="/css/global-styles/colors.css"/>
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
     <div id="logoAndHeadline">
         <a href="https://localhost:8080/">
-            <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
+            <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
         <h1>Bestil</h1>
         <div id="emptybox"> </div>
@@ -29,9 +29,8 @@
 </header>
 
 <!-- (Kort med butikslogoer) -->
-<div class="bg-img">
+<div class="bg-img" background-image>
     <!-- Boks med indtast postnummer, gade -->
-
     <form class="formcontainer">
         <h1>Din lokation</h1>
         <label><b>Postnummer</b></label>
@@ -40,33 +39,35 @@
         <input type="text" placeholder="Gadenavn" name="gade" required>
         <button type="submit" class="btn">Søg</button>
     </form>
+
+    <div id="content-wrap">
+        <div class="btn-container">
+            <img src="/css/images/order-images/scottie_yellow.png"/> <!-- > skriv static/css... for at åbne direkte-->
+            <input type="checkbox"  class="checkbox"/>
+        </div>
+        <div class="btn-container">
+            <img src="/css/images/order-images/foetex_logo_RGB.png"/> <!-- > skriv static/css... for at åbne direkte-->
+            <input type="checkbox"  class="checkbox"/>
+        </div>
+        <div class="btn-container">
+            <img src="/css/images/order-images/Starbucks_Positive_Pantone.png"/> <!-- > skriv static/css... for at åbne direkte-->
+            <input type="checkbox"  class="checkbox"/>
+        </div>
+        <div class="btn-container">
+            <img src="/css/images/order-images/Bilka.png"/> <!-- > skriv static/css... for at åbne direkte-->
+            <input type="checkbox"  class="checkbox"/>
+        </div>
+        <div class="btn-container">
+            <img src="/css/images/order-images/Wupti_Positive_CMYK.png"/> <!-- > skriv static/css... for at åbne direkte-->
+            <input type="checkbox"  class="checkbox"/>
+        </div>
+    </div>
 </div>
 
 <!-- Listevisning med butiksikoner -->
-<section>
-<div id="content-wrap">
-    <div class="btn-container">
-        <img src="/static/css/images/order-images/scottie_yellow.png"/> <!-- > skriv static/css... for at åbne direkte-->
-        <input type="checkbox"  class="checkbox"/>
-    </div>
-    <div class="btn-container">
-        <img src="/static/css/images/order-images/foetex_logo_RGB.png"/> <!-- > skriv static/css... for at åbne direkte-->
-        <input type="checkbox"  class="checkbox"/>
-    </div>
-    <div class="btn-container">
-        <img src="/static/css/images/order-images/Starbucks_Positive_Pantone.png"/> <!-- > skriv static/css... for at åbne direkte-->
-        <input type="checkbox"  class="checkbox"/>
-    </div>
-    <div class="btn-container">
-        <img src="/static/css/images/order-images/Bilka.png"/> <!-- > skriv static/css... for at åbne direkte-->
-        <input type="checkbox"  class="checkbox"/>
-    </div>
-    <div class="btn-container">
-        <img src="/static/css/images/order-images/Wupti_Positive_CMYK.png"/> <!-- > skriv static/css... for at åbne direkte-->
-        <input type="checkbox"  class="checkbox"/>
-    </div>
-</div>
-</section>
+
+
+
 </body>
 
 <!-- footer -->

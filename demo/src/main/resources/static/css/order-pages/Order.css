@@ -40,7 +40,7 @@
 
 .bg-img {
     /* The image used */
-    background-image: url("static/css/images/bykort-kbh.png");
+    background-image: url("../images/bykort-kbh.png");
     /* Control the height of the image */
     min-height: 400px;
 
