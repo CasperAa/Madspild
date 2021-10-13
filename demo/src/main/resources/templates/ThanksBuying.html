@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <title>Thanks Buying</title>
 
-    <link rel="stylesheet" type="text/css" href="/static/css/ThanksBuying.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/ThanksBuying.css"/>
 
 
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/footer.css"/>
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/fonts.css"/>
 
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
 
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/colors.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css"/>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
 <body>
 
 <header>
-    <nav id="menu">
-        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
-    </nav>
-
-    <div id="logoAndHeadline">
-        <a href="https://localhost:8080/">
-            <img id="logo" src="/static/css/images/food-waste-logo.jpg/css/images/OurVision-images/food-waste-logo.jpg/css/images/food-waste-logo.jpg" alt="Main logo">
+    <div id="logoAndButtons">
+        <a href="http://localhost:8080/home">
+            <img id="logo" src="css/images/no_text_transparant_food_waste_logo.png" alt="Main logo">
         </a>
+
+        <nav id="menu">
+            <button onclick="window.location.href='/Recipe'"> Opskrifter </button>
+            <button onclick="window.location.href='/Order'"> Bestilling </button>
+            <button onclick="window.location.href='/OurVision'"> Vores vision </button>
+        </nav>
+
+        <div id="emptybox"> </div>
     </div>
 
 </header>
 
-<div id="content-wrap">
-
-<div id="shoppingcart">
-    <i class="fa fa-shopping-cart" style="font-size:400px"></i>
-</div>
 
 
 <div>
@@ -48,16 +46,23 @@
 </div>
 
 
+<div id="shoppingcart">
 
-
-<div class="radio-buttons">
-
-    <input type="radio" name="radio" style="conten:fa fa-heart ">
-    <label class="custom-radio">Favorit</label>
-
+    <i class="fa fa-shopping-cart" style="font-size:400px"></i>
+    <p id="bekræftelsesmail">Bekræftelsesmail sendt</p>
 
 </div>
+
+
+<div id="arrow">
+    <i class="fa fa-arrow-left" style="font-size:30px">   Til startside</i>
+
 </div>
+
+
+
+
+
 </body>
 
 <footer id="footer">

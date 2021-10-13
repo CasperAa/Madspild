@@ -45,4 +45,9 @@ public class PageController {
         return "Error";
     }
 
+    @GetMapping("/ThanksBuying")
+    public String ThanksBuying(){
+        return "ThanksBuying";
+    }
+
 }

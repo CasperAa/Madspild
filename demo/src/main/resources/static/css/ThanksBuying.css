@@ -4,53 +4,41 @@ body{
 
 }
 
-#shoppingcart{
-    position: relative;
+#header2{
+    margin-top: 1%;
+    margin-left: 50%;
+
     text-align:center;
-    top: 60%;
+    top: 10%;
     left:50%;
-    transform: translate(-50%,-50%);
-    clear: both;
-    float: bottom;
+    transform: translate(-50%,-5%);
+    font: italic 100px Trebuchet MS;
+    z-index: 5;
 
 }
 
-/*#header{
 
-    border: solid black;
+#shoppingcart{
+    margin-top: 5%;
+    margin-left: 50%;
 
-    /*Ændre tykkelse på border
-    border-width: 5px;
-
-    /*Ændre skarpe kanterne skal være på border
-    border-radius: 20px;
-
-    /*Ændre hvor bred borderen er
-    margin-left: 580px;
-    margin-right: 580px;
-
-    /*Ændre hvor meget plads der fra tekst til toppen af border og fra tekst til bunden af border
-    padding-top: 15px ;
-    padding-bottom: 15px;
-
-    font: bold 30px Trebuchet MS;
-
-    /*Man skal både skrive text-align og position for at få det i midten
-    text-align: center;
-    position: center;
-
-}*/
-
-#header2{
-    position: absolute;
     text-align:center;
     top: 20%;
     left:50%;
-    transform: translate(-50%,-50%);
-    font: italic 100px Trebuchet MS;
-    z-index: 5;
+
+
+    transform: translate(-50%,-5%);
+
+    display: block;
+    border: dashed #27af1d;
+    border-radius: 20px;
 }
 
-#content-wrap {
-    width: 800px;
+
+#bekræftelsesmail{
+    font: italic 50px Trebuchet MS;
+}
+#arrow{
+    margin-top: 0%;
+
 }

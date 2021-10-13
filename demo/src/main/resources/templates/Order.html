@@ -3,11 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Bestilling</title>
-    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
-    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
     <link rel="stylesheet" href="/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
@@ -15,19 +10,18 @@
     <link rel="stylesheet" href="/css/global-styles/colors.css"/>
 </head>
 <body>
-
 <header>
-    <nav id="menu">
-        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
-    </nav>
-
-    <div id="logoAndHeadline">
+    <div id="logoAndButtons">
         <a href="http://localhost:8080/home">
-            <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
+            <img id="logo" src="css/images/no_text_transparant_food_waste_logo.png" alt="Main logo">
         </a>
-        <h1>Bestil</h1>
+
+        <nav id="menu">
+            <button onclick="window.location.href='/Recipe'"> Opskrifter </button>
+            <button onclick="window.location.href='/Order'"> Bestilling </button>
+            <button onclick="window.location.href='/OurVision'"> Vores vision </button>
+        </nav>
+
         <div id="emptybox"> </div>
     </div>
 
@@ -43,6 +37,7 @@
         <input type="text" placeholder="Postnummer" name="postnummer" required>
         <label><b>Gade</b></label>
         <input type="text" placeholder="Gadenavn" name="gade" required>
+
         <button type="submit" class="btn">Søg</button>
     </form>
 </div>
