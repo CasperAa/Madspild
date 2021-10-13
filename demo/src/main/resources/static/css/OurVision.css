@@ -36,12 +36,16 @@ body{
 .image_left{
     padding-right: 10px;
     align: left;
+    position: relative;
+    top: 15px
 }
 
 .image_right{
     align:right;
     padding-left: 10px;
     padding-right: 20px;
+    position: relative;
+    top: 30px
 }
 
 .image_size{
