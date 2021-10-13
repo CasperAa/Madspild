@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Bestilling</title>
+    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
+    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
     <link rel="stylesheet" href="/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
     <link rel="stylesheet" href="/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
@@ -10,40 +15,41 @@
     <link rel="stylesheet" href="/css/global-styles/colors.css"/>
 </head>
 <body>
+
 <header>
     <nav id="menu">
-        <button id="opskrifter" onclick="window.location.href='/Recipe'"> Opskrifter </button>
-        <button id="order" onclick="window.location.href='/Order'"> Bestilling </button>
-        <button id="vision" onclick="window.location.href='/OurVision'"> Vores vision </button>
+        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
     </nav>
 
     <div id="logoAndHeadline">
         <a href="http://localhost:8080/home">
             <img id="logo" src="/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
-        <h1> Vælg Butik </h1>
+        <h1>Bestil</h1>
         <div id="emptybox"> </div>
     </div>
 
 </header>
 
 <!-- (Kort med butikslogoer) -->
-<div class="bg-img">
+<div id="bg-img">
     <!-- Boks med indtast postnummer, gade -->
-    <form class="container">
+
+    <form class="formcontainer">
         <h1>Din lokation</h1>
         <label><b>Postnummer</b></label>
         <input type="text" placeholder="Postnummer" name="postnummer" required>
         <label><b>Gade</b></label>
         <input type="text" placeholder="Gadenavn" name="gade" required>
-
         <button type="submit" class="btn">Søg</button>
     </form>
 </div>
 
 <!-- Listevisning med butiksikoner -->
 <section>
-<div class="content-wrap">
+<div id="content-wrap">
     <div class="btn-container">
         <img src="/css/images/order-images/scottie_yellow.png"/> <!-- > skriv static/css... for at åbne direkte-->
         <input type="checkbox"  class="checkbox"/>

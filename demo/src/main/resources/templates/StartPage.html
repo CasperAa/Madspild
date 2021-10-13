@@ -7,12 +7,10 @@
     <!-- Således laver man kommentarer -->
 
     <link rel="stylesheet" href="/static/css/startPage.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/footer.css">
 
-
-    <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
-    <link rel="stylesheet" type="text/css" href="/css/global-styles/footer.css">
-    <link rel="stylesheet" type="text/css" href="/css/global-styles/fonts.css">
-    <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/colors.css">
 
 
 
@@ -21,23 +19,24 @@
 
 <header>
     <nav id="menu">
-        <button id="opskrifter" onclick="window.location.href='/Recipe'"> Opskrifter </button>
-        <button id="order" onclick="window.location.href='/Order'"> Bestilling </button>
-        <button id="vision" onclick="window.location.href='/OurVision'"> Vores vision </button>
+        <button style="margin-right: 300px; margin-left: 230px"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
+        <button> <a href="http://localhost:8080/Order"> Bestilling </a></button>
+        <button style="margin-left: 300px" > <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
     </nav>
 
+
     <div id="logoAndHeadline">
-        <a href="http://localhost:8080/home">
-            <img id="logo" style="left: auto" src="/css/images/food-waste-logo.jpg" alt="Main logo">
+        <a href="https://localhost:8080/">
+            <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
         </a>
-        <div id="emptybox"> </div>
+
     </div>
 
-    <h1 id="overkskrift"> Still tasty - no wasty </h1>
 
+<header id="header">
+    <header id="overkskrift">Still tasty - no wasty</header>
 </header>
-
-
+</header>
 
 <img src="/static/Grøntsager.jpg" id="grøntsager">
 

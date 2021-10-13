@@ -5,23 +5,20 @@
 
 #menu{
     /*Her ordnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    background: rgba(90, 163, 0, 1);
+    background: #8d7a69ff;
     padding: 20px;
     text-align: center;
 }
 
-.blue-background {
-    background-color: #039ee6ff;
-}
-
 /*LOGO BUTTONS----------------------------------------*/
 .btn-container {
-    float: left;
+    float: right;
     position: relative;
     width: 50px;
     height: 50px;
     margin-left: 10px;
     margin-top: 10px;
+
 }
 
 .checkbox {
@@ -30,24 +27,20 @@
     right: 0px;
 }
 
-.content-wrap {
+#content-wrap {
     width: 800px;
-    margin: 0 auto;
 }
 
 /*ADDRESS BOX------------------------------------------*/
-body, html {
-    height: 100%;
-}
+
 
 * {
     box-sizing: border-box;
 }
 
-.bg-img {
+#bg-img {
     /* The image used */
-    background-image: url("../images/order-images/bykort-kbh.png");
-    font-family: "Trebuchet MS";
+    background-image: url("static/css/images/bykort-kbh.png");
     /* Control the height of the image */
     min-height: 400px;
 
@@ -59,7 +52,7 @@ body, html {
 }
 
 /* Add styles to the form container */
-.container {
+.formcontainer {
     position: absolute;
     margin: 20px;
     max-width: 300px;
