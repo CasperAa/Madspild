@@ -70,7 +70,7 @@
     border: gray 5px solid;
     margin: 20px;
     width: 200px;
-    height: 70px;
+    height: 110px;
     margin: auto;
 }
 
@@ -91,7 +91,7 @@
 .select_button{
     position: relative;
     left: 0px;
-    top: -60px;
+    top: -10px
 }
 
 #store_logo{

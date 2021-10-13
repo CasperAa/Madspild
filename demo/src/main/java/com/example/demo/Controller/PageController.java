@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class PageController {
-    @GetMapping("/")
+    @GetMapping("/home")
     public String index(){
         return "StartPage";
     }
@@ -43,6 +43,11 @@ public class PageController {
     @GetMapping("/error")
     public String error(){
         return "Error";
+    }
+
+    @GetMapping("/ThanksBuying")
+    public String ThanksBuying(){
+        return "ThanksBuying";
     }
 
 }

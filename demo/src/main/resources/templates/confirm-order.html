@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Bekræft bestilling</title>
-    <link rel="stylesheet" href="/static/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" href="/static/css/order-pages/confirm-order.css"> <!-- > skriv static/css... for at åbne direkte-->
-    <link rel="stylesheet" type="text/css" href="/static/css/global-styles/Header.css">
-    <link rel="stylesheet" href="/static/css/global-styles/colors.css"/>
+    <link rel="stylesheet" href="/css/global-styles/footer.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/global-styles/fonts.css"/> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/global-styles/Header.css"/>
+    <link rel="stylesheet" href="/css/global-styles/colors.css"/>
+    <link rel="stylesheet" href="/css/order-pages/Order.css"> <!-- > skriv static/css... for at åbne direkte-->
+    <link rel="stylesheet" href="/css/order-pages/confirm-order.css"> <!-- > skriv static/css... for at åbne direkte-->
+
 </head>
 <header>
-    <nav id="menu">
-        <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-        <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-        <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
-    </nav>
-
-    <div id="logoAndHeadline">
-        <a href="https://localhost:8080/">
-            <img id="logo" src="/static/css/images/food-waste-logo.jpg" alt="Main logo">
+    <div id="logoAndButtons">
+        <a href="http://localhost:8080/home">
+            <img id="logo" src="css/images/no_text_transparant_food_waste_logo.png" alt="Main logo">
         </a>
-        <h1>Bekræft bestilling</h1>
+
+        <nav id="menu">
+            <button onclick="window.location.href='/Recipe'"> Opskrifter </button>
+            <button onclick="window.location.href='/Order'"> Bestilling </button>
+            <button onclick="window.location.href='/OurVision'"> Vores vision </button>
+        </nav>
+
         <div id="emptybox"> </div>
+    </div>
+    <div id="Headline">
+        <h1> Bekræft Bestilling </h1>
     </div>
 
 </header>
@@ -34,10 +38,10 @@
     <!-- butiksoversigt -->
     <div id="head">
         <div id="shop-logo">
-            <img src="static/css/confirm-order-images/scottie_yellow.png"/>
+            <img src="/css/confirm-order-images/scottie_yellow.png"/>
         </div>
         <div id="we-offer">
-            <h1>Vi tilbyder</h1>
+            <h1>Overskrift</h1>
         </div>
         <div id="favorit">
             <input type="checkbox">
@@ -90,7 +94,7 @@
         </div>
         <!-- billede-->
         <div id="item-image">
-            <img src="static/css/confirm-order-images/COLOURBOX-groceries.jpg">
+            <img src="/css/confirm-order-images/COLOURBOX-groceries.jpg">
         </div>
     </div>
 </div>
@@ -101,7 +105,7 @@
 
 <!-- bekræft -->
 <div id="confirmation-button">
-    <button>Bekræft bestilling</button>
+    <button onclick="window.location.href='/ThanksBuying'"> Bekræft bestilling </button>
 </div>
 
 </body>

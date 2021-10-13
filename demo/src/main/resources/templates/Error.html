@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Error</title>
 
     <link rel="stylesheet" type="text/css" href="/css/global-styles/Header.css">
     <link rel="stylesheet" type="text/css" href="/css/global-styles/fonts.css">
     <link rel="stylesheet" type="text/css" href="/css/error.css">
     <link rel="stylesheet" type="text/css" href="/css/global-styles/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/global-styles/colors.css">
+    <link rel="icon" href="css/images/favicon.ico"/>
 </head>
 <body>
-    <header>
+<header>
+    <div id="logoAndButtons">
+        <a href="http://localhost:8080/home">
+            <img id="logo" src="css/images/no_text_transparant_food_waste_logo.png" alt="Main logo">
+        </a>
+
         <nav id="menu">
-            <button id="opskrifter"> <a href="http://localhost:8080/Recipe"> Opskrifter </a></button>
-            <button id="order"> <a href="http://localhost:8080/Order"> Bestilling </a></button>
-            <button id="vision"> <a href="http://localhost:8080/OurVision"> Vores vision</a></button>
+            <button onclick="window.location.href='/Recipe'"> Opskrifter </button>
+            <button onclick="window.location.href='/Order'"> Bestilling </button>
+            <button onclick="window.location.href='/OurVision'"> Vores vision </button>
         </nav>
 
-    </header>
+        <div id="emptybox"> </div>
+    </div>
+    <div id="Headline">
+        <h1> Der er opstået et problem </h1>
+    </div>
+
+</header>
 
     <div id="error">
-
-        <h1>Der er opstået et problem</h1>
 
     <button id="errorButton" onclick="window.location.href='//www.youtube.com/watch?v=dQw4w9WgXcQ'">Klik her for at komme tilbage</button>
     </div>

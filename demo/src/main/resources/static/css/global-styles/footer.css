@@ -3,7 +3,6 @@
     bottom: 0;
     width: 100%;
     margin-top: 160px;
-    height: 110px;
     clear: both;
     text-align: left;
     padding: 0;
@@ -14,7 +13,7 @@
 }
 
 #fixed-footer-table {
-    table-layout: fixed;
+    table-layout: auto;
     width: auto;
 
 }
@@ -22,6 +21,7 @@
 #fixed-footer-table, td, th {
     padding: 5px;
 }
+
 footer a{
     color: #ffffff;
 }
