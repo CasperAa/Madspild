@@ -1,14 +1,8 @@
-* {
+body {
     margin: 0px;
     padding: 0px;
 }
 
-#menu{
-    /*Her ordnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    background: #8d7a69ff;
-    padding: 20px;
-    text-align: center;
-}
 
 /*LOGO BUTTONS----------------------------------------*/
 .btn-container {
@@ -32,13 +26,7 @@
 }
 
 /*ADDRESS BOX------------------------------------------*/
-
-
-* {
-    box-sizing: border-box;
-}
-
-.bg-img {
+#bg-img {
     /* The image used */
     background-image: url("../images/bykort-kbh.png");
     /* Control the height of the image */
@@ -55,27 +43,28 @@
 .formcontainer {
     position: absolute;
     margin: 20px;
-    max-width: 300px;
+    max-width: 25%;
     padding: 16px;
     background-color: #8d7a69ff;
+
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
+/* Limited-width input fields ensure fields stay withing box shape*/
+input[type=text], input[type=text] {
+    width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=text]:focus {
     background-color: #ddd;
     outline: none;
 }
 
-/* Set a style for the submit button */
-.btn {
+/* Search button */
+.btn2 {
     padding: 16px 20px;
     border: none;
     cursor: pointer;
@@ -83,7 +72,7 @@ input[type=text]:focus, input[type=password]:focus {
     opacity: 0.9;
 }
 
-.btn:hover {
+.btn2:hover {
     opacity: 1;
 }
 
