@@ -5,27 +5,27 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class PageController {
-    @GetMapping("/home")
+    @GetMapping({"/home", "/", "startside","startpage"})
     public String index(){
         return "StartPage";
     }
 
-    @GetMapping("/Recipe")
+    @GetMapping({"/Recipe", "/recipe"})
     public String Recipe(){
         return "Recipe";
     }
 
-    @GetMapping("/Recipe/spaghetti-carbonara")
+    @GetMapping({"/Recipe/spaghetti-carbonara", "/recipe/spaghetti-carbonara"})
     public String RecipePt2(){
         return "Recipept2";
     }
 
-    @GetMapping("/Order")
+    @GetMapping({"/Order", "/order"})
     public String Order(){
         return "Order";
     }
 
-    @GetMapping("/OurVision")
+    @GetMapping({"/OurVision", "/ourvision", "/ourVision", "voresvision", "VoresVision", "Voresvision", "voresVision"})
     public String OurVision(){
         return "OurVision";
     }
@@ -35,7 +35,7 @@ public class PageController {
         return "confirm-order";
     }
 
-    @GetMapping("/order_page")
+    @GetMapping({"/order_page", "/orderpage", "/OrderPage", "/Order_page", "/Order_Page"})
     public String Order_page(){
         return "Order-page.html";
     }
