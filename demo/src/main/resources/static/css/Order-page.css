@@ -13,6 +13,10 @@
     top: -250px;
 }
 
+#logoAndFav{
+    margin-bottom: 20px;
+}
+
 #box1{
     position: relative;
     margin-left: auto;
