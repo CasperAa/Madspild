@@ -12,6 +12,11 @@
     left: 400px;
     top: -250px;
 }
+#orderpageHeadline{
+    font-size: 35px;
+    font-family: "Trebuchet MS", serif;
+    text-transform: capitalize;
+}
 
 #logoAndFav{
     margin-bottom: 20px;
