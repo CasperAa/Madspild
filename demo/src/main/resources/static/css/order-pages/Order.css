@@ -1,27 +1,18 @@
-* {
+body {
     margin: 0px;
     padding: 0px;
 }
 
-#menu{
-    /*Her ordnes den box som omgiver knapperne og samtidig placering af knapperne*/
-    background: rgba(90, 163, 0, 1);
-    padding: 20px;
-    text-align: center;
-}
-
-.blue-background {
-    background-color: #039ee6ff;
-}
 
 /*LOGO BUTTONS----------------------------------------*/
 .btn-container {
-    float: left;
+    float: right;
     position: relative;
     width: 50px;
     height: 50px;
     margin-left: 10px;
     margin-top: 10px;
+
 }
 
 .checkbox {
@@ -30,24 +21,14 @@
     right: 0px;
 }
 
-.content-wrap {
+#content-wrap {
     width: 800px;
-    margin: 0 auto;
 }
 
 /*ADDRESS BOX------------------------------------------*/
-body, html {
-    height: 100%;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.bg-img {
+#bg-img {
     /* The image used */
-    background-image: url("../images/order-images/bykort-kbh.png");
-    font-family: "Trebuchet MS";
+    background-image: url("../images/bykort-kbh.png");
     /* Control the height of the image */
     min-height: 400px;
 
@@ -59,30 +40,31 @@ body, html {
 }
 
 /* Add styles to the form container */
-.container {
+.formcontainer {
     position: absolute;
     margin: 20px;
-    max-width: 300px;
+    max-width: 25%;
     padding: 16px;
     background-color: #8d7a69ff;
+
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
+/* Limited-width input fields ensure fields stay withing box shape*/
+input[type=text], input[type=text] {
+    width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=text]:focus {
     background-color: #ddd;
     outline: none;
 }
 
-/* Set a style for the submit button */
-.btn {
+/* Search button */
+.btn2 {
     padding: 16px 20px;
     border: none;
     cursor: pointer;
@@ -90,8 +72,23 @@ input[type=text]:focus, input[type=password]:focus {
     opacity: 0.9;
 }
 
-.btn:hover {
+.btn2:hover {
     opacity: 1;
+}
+
+/*CONFIRMATION BUTTON--------------------------------*/
+#confirmation-button2 {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 /*BACKGROUND MAP------------------------------------*/

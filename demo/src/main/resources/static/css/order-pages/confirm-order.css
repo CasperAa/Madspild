@@ -11,9 +11,6 @@
 }
 
 /*Butiksoversigt*/
-#head {
-    background-color: #039ee6;
-}
 
 #shop-logo {
     float: left;
@@ -53,8 +50,7 @@
 #overview {
     float: left;
     width: 400px;
-    padding: 0px 0px 20px 20px
-
+    text-align: center;
 }
 
 #item-quantity-price {
